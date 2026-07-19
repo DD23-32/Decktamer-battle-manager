@@ -1,6 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+<div style="padding:20px;border:1px solid black;margin-bottom:20px;">
 
+    <button onclick="alert(getMyPeerID())">
+
+        Show My ID
+
+    </button>
+
+    <br><br>
+
+    <input
+        id="peerID"
+        placeholder="Peer ID">
+
+    <button onclick="connectToPeer(document.getElementById('peerID').value)">
+
+        Connect
+
+    </button>
+
+    <br><br>
+
+    <button onclick="sendTestMessage()">
+
+        Send Test Message
+
+    </button>
+
+</div>
 <head>
 
     <meta charset="UTF-8">
@@ -118,8 +146,11 @@
 </div>
 
 
+<script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+
 <script src="js/database.js"></script>
 <script src="js/match.js"></script>
+<script src="js/network.js"></script>
 <script src="js/ui.js"></script>
 <script src="js/main.js"></script>
 

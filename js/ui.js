@@ -70,22 +70,32 @@ function updateSearchResults(player){
 
         div.onclick = ()=>{
 
-            getPlayerDeck(player).push(
+    const card = createMatchCard(
+        creature.id,
+        player
+    );
 
-                createMatchCard(
-                    creature.id,
-                    player
-                )
+    getPlayerDeck(player).push(card);
 
-            );
+    sendCommand({
 
-            input.value = "";
+        type: "addCard",
 
-            results.innerHTML = "";
+        creatureID: creature.id,
 
-            refreshUI();
+        owner: player,
 
-        };
+        uid: card.uid
+
+    });
+
+    input.value = "";
+
+    results.innerHTML = "";
+
+    refreshUI();
+
+};
 
         results.appendChild(div);
 
@@ -586,15 +596,19 @@ function drawBoardCard(card,lane){
 
 }
 function drawInspector() {
+    console.log("drawInspector()");
+console.log(selectedCard);
 
     const panel = document.getElementById("inspectorContent");
 
     if (!selectedCard) {
         panel.innerHTML = "<p>No creature selected.</p>";
+        console.log("Finished inspector.");
         return;
     }
 
     const creature = getCardCreature(selectedCard);
+    console.log("Creature:", creature);
 
     let html = `
         <h2>${creature.name}</h2>
@@ -602,51 +616,7 @@ function drawInspector() {
             Player ${selectedCard.owner}
         </div>
     `;
-    if(selectedCard.owner === currentPlayer){
-
-    html += `
-
-        <div class="actionButtonsTop">
-
-    `;
-
-    if(selectedCard.inPlay){
-
-        html += `
-
-            <button onclick="retreatSelectedCard()">
-                Retreat
-            </button>
-
-            <button onclick="swapLane()">
-                Swap Lane
-            </button>
-
-        `;
-
-    }
-
-    else{
-
-        html += `
-
-            <button onclick="playSelectedCard()">
-                Play
-            </button>
-
-        `;
-
-    }
-
-    html += `
-
-        </div>
-
-        <hr>
-
-    `;
-
-}
+    
 
     // --------------------------
     // Permanent Stats
@@ -872,7 +842,50 @@ html += drawTemporaryStatus(
     "Temporary Sluggish"
 );
 
+html += `<hr>`;
+
+if(selectedCard.inPlay){
+
+    html += `
+
+        <div class="actionButtons">
+
+            <button onclick="retreatSelectedCard()">
+                Retreat
+            </button>
+
+            <button onclick="swapLane()">
+                Swap Lane
+            </button>
+
+        </div>
+
+    `;
+
 }
+else{
+
+    html += `
+
+        <div class="actionButtons">
+
+            <button onclick="playSelectedCard()">
+                Play
+            </button>
+
+        </div>
+
+    `;
+
+}
+
+panel.innerHTML = html;
+
+console.log("Finished inspector.");
+
+}
+
+
 function refreshUI(){
 
     drawDeck(1);
@@ -882,6 +895,8 @@ function refreshUI(){
     drawDeck(2);
 
     drawInspector();
+
+    
 
 }
 

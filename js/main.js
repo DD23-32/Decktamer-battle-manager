@@ -8,6 +8,8 @@ async function initialize(){
 
     await loadDatabase();
 
+    initializeNetworking();
+
     selectedCard = null;
 
     refreshUI();

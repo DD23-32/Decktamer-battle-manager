@@ -1,5 +1,6 @@
 let player1Deck = [];
 let player2Deck = [];
+let currentTurn = 1;
 
 const players = {
 
@@ -51,13 +52,13 @@ function getTemporaryValue(card, status){
     );
 
 }
-function createMatchCard(creatureID, owner){
+function createMatchCard(creatureID, owner, forcedUID = null){
 
     const creature = getCreature(creatureID);
 
     return{
 
-        uid: nextUID++,
+       uid: forcedUID ?? nextUID++,
 
         creatureID: creature.id,
 
@@ -134,181 +135,263 @@ tempSluggish: [],
 }
 function changeHP(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.hp += amount;
+    applyStatChange(
 
-    if(selectedCard.hp < 0)
-        selectedCard.hp = 0;
+        selectedCard.uid,
+
+        "hp",
+
+        amount
+
+    );
+
+    sendCommand({
+
+        type: "changeStat",
+
+        uid: selectedCard.uid,
+
+        stat: "hp",
+
+        delta: amount
+
+    });
+
+}
+function applyHP(card, amount){
+
+    card.hp += amount;
+
+    if(card.hp < 0)
+        card.hp = 0;
 
     refreshUI();
 
 }
-
 function changeArmor(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.armor += amount;
+    applyStatChange(selectedCard.uid, "armor", amount);
 
-    if(selectedCard.armor < 0)
-        selectedCard.armor = 0;
-
-    refreshUI();
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "armor",
+        delta: amount
+    });
 
 }
 
 function changeStrength(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.strength += amount;
+    applyStatChange(selectedCard.uid, "strength", amount);
 
-    if(selectedCard.strength < 0)
-        selectedCard.strength = 0;
-
-    refreshUI();
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "strength",
+        delta: amount
+    });
 
 }
 
 function changeWeakness(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.weakness += amount;
+    applyStatChange(selectedCard.uid, "weakness", amount);
 
-    if(selectedCard.weakness < 0)
-        selectedCard.weakness = 0;
-
-    refreshUI();
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "weakness",
+        delta: amount
+    });
 
 }
+
 function changeSturdy(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.sturdy += amount;
+    applyStatChange(selectedCard.uid, "sturdy", amount);
 
-    if(selectedCard.sturdy < 0)
-        selectedCard.sturdy = 0;
-
-    refreshUI();
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "sturdy",
+        delta: amount
+    });
 
 }
 
 function changeVulnerable(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.vulnerable += amount;
+    applyStatChange(selectedCard.uid, "vulnerable", amount);
 
-    if(selectedCard.vulnerable < 0)
-        selectedCard.vulnerable = 0;
-
-    refreshUI();
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "vulnerable",
+        delta: amount
+    });
 
 }
 
 function changeSwiftness(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.swiftness += amount;
+    applyStatChange(selectedCard.uid, "swiftness", amount);
 
-    if(selectedCard.swiftness < 0)
-        selectedCard.swiftness = 0;
-
-    refreshUI();
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "swiftness",
+        delta: amount
+    });
 
 }
 
 function changeSlowness(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.slowness += amount;
+    applyStatChange(selectedCard.uid, "slowness", amount);
 
-    if(selectedCard.slowness < 0)
-        selectedCard.slowness = 0;
-
-    refreshUI();
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "slowness",
+        delta: amount
+    });
 
 }
+
+function changePoison(amount){
+
+    if(!selectedCard)
+        return;
+
+    applyStatChange(selectedCard.uid, "poison", amount);
+
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "poison",
+        delta: amount
+    });
+
+}
+
 function changeProtection(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.protection = Math.max(
-        0,
-        selectedCard.protection + amount
-    );
+    applyStatChange(selectedCard.uid, "protection", amount);
 
-    refreshUI();
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "protection",
+        delta: amount
+    });
 
 }
 
 function changeAsleep(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.asleep = Math.max(
-        0,
-        selectedCard.asleep + amount
-    );
+    applyStatChange(selectedCard.uid, "asleep", amount);
 
-    refreshUI();
-
-}
-
-function changeTorpidity(amount){
-
-    if(!selectedCard) return;
-
-    selectedCard.torpidity = Math.max(
-        0,
-        selectedCard.torpidity + amount
-    );
-
-    refreshUI();
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "asleep",
+        delta: amount
+    });
 
 }
 
 function changeMarked(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.marked = Math.max(
-        0,
-        selectedCard.marked + amount
-    );
+    applyStatChange(selectedCard.uid, "marked", amount);
 
-    refreshUI();
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "marked",
+        delta: amount
+    });
+
+}
+
+function changeTorpidity(amount){
+
+    if(!selectedCard)
+        return;
+
+    applyStatChange(selectedCard.uid, "torpidity", amount);
+
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "torpidity",
+        delta: amount
+    });
 
 }
 
 function changeSwift(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.swift = Math.max(
-        0,
-        selectedCard.swift + amount
-    );
+    applyStatChange(selectedCard.uid, "swift", amount);
 
-    refreshUI();
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "swift",
+        delta: amount
+    });
 
 }
 
 function changeSluggish(amount){
 
-    if(!selectedCard) return;
+    if(!selectedCard)
+        return;
 
-    selectedCard.sluggish = Math.max(
-        0,
-        selectedCard.sluggish + amount
-    );
+    applyStatChange(selectedCard.uid, "sluggish", amount);
 
-    refreshUI();
+    sendCommand({
+        type: "changeStat",
+        uid: selectedCard.uid,
+        stat: "sluggish",
+        delta: amount
+    });
 
 }
 function playSelectedCard(){
@@ -321,6 +404,15 @@ function playSelectedCard(){
     triggerTalent(selectedCard,"onPlay");
 
     choosingLane = true;
+
+    refreshUI();
+
+}
+function applyPlay(card, lane){
+
+    card.lane = lane;
+
+    card.inPlay = true;
 
     refreshUI();
 
@@ -355,16 +447,66 @@ function placeSelectedCard(lane){
 
     }
 
-    selectedCard.lane = lane;
+    applyPlay(selectedCard, lane);
 
-    if(choosingLane){
+sendCommand({
 
-        selectedCard.inPlay = true;
+    type: "play",
 
-    }
+    uid: selectedCard.uid,
 
-    choosingLane = false;
-    swappingLane = false;
+    lane: lane
+
+});
+
+choosingLane = false;
+
+swappingLane = false;
+
+}
+function applyRetreat(card){
+
+    card.inPlay = false;
+
+    card.lane = null;
+
+    // Permanent combat stats
+
+    card.armor = 0;
+
+    card.strength = 0;
+    card.weakness = 0;
+
+    card.sturdy = 0;
+    card.vulnerable = 0;
+
+    card.swiftness = 0;
+    card.slowness = 0;
+
+    // Temporary combat stats
+
+    card.tempStrength = [];
+    card.tempWeakness = [];
+
+    card.tempSturdy = [];
+    card.tempVulnerable = [];
+
+    card.tempSwiftness = [];
+    card.tempSlowness = [];
+
+    // Other effects
+
+    card.priority = false;
+
+    card.swift = [];
+    card.sluggish = [];
+
+    card.protection = [];
+    card.asleep = [];
+    card.torpidity = [];
+    card.marked = [];
+
+    // Poison stays
 
     refreshUI();
 
@@ -374,54 +516,15 @@ function retreatSelectedCard(){
     if(!selectedCard)
         return;
 
-    selectedCard.inPlay = false;
-    selectedCard.lane = null;
+    applyRetreat(selectedCard);
 
-    // Permanent
+    sendCommand({
 
-    selectedCard.armor = 0;
+        type: "retreat",
 
-    selectedCard.strength = 0;
-    selectedCard.weakness = 0;
+        uid: selectedCard.uid
 
-    selectedCard.sturdy = 0;
-    selectedCard.vulnerable = 0;
-
-    selectedCard.swiftness = 0;
-    selectedCard.slowness = 0;
-
-    // Temporary
-
-    selectedCard.tempStrength = [];
-    selectedCard.tempWeakness = [];
-
-    selectedCard.tempSturdy = [];
-    selectedCard.tempVulnerable = [];
-
-    selectedCard.tempSwiftness = [];
-    selectedCard.tempSlowness = [];
-
-    selectedCard.tempProtection = [];
-    selectedCard.tempAsleep = [];
-    selectedCard.tempMarked = [];
-    selectedCard.tempTorpidity = [];
-    selectedCard.tempSwift = [];
-    selectedCard.tempSluggish = [];
-
-    // Other
-
-    selectedCard.priority = false;
-
-    selectedCard.protection = 0;
-    selectedCard.asleep = 0;
-    selectedCard.marked = 0;
-    selectedCard.torpidity = 0;
-    selectedCard.swift = 0;
-    selectedCard.sluggish = 0;
-
-    // Poison stays
-
-    refreshUI();
+    });
 
 }
 function selectCard(uid){
@@ -521,38 +624,52 @@ function swapLane(){
     refreshUI();
 
 }
-function swapSelectedCard(newLane){
+function applySwap(card, newLane){
 
-    if(!selectedCard)
-        return;
+    const otherCard = getPlayerDeck(card.owner).find(other =>
 
-    const deck = getPlayerDeck(selectedCard.owner);
-
-    const otherCard = deck.find(card =>
-
-        card.inPlay &&
-        card.lane === newLane &&
-        card.uid !== selectedCard.uid
+        other.inPlay &&
+        other.lane === newLane &&
+        other.uid !== card.uid
 
     );
 
     if(otherCard){
 
-        const oldLane = selectedCard.lane;
+        const oldLane = card.lane;
 
-        selectedCard.lane = newLane;
+        card.lane = newLane;
+
         otherCard.lane = oldLane;
 
     }
     else{
 
-        selectedCard.lane = newLane;
+        card.lane = newLane;
 
     }
 
-    swappingLane = false;
-
     refreshUI();
+
+}
+function swapSelectedCard(newLane){
+
+    if(!selectedCard)
+        return;
+
+    applySwap(selectedCard, newLane);
+
+    sendCommand({
+
+        type: "swap",
+
+        uid: selectedCard.uid,
+
+        lane: newLane
+
+    });
+
+    swappingLane = false;
 
 }
 function onBoardClick(lane, uid){
@@ -568,43 +685,38 @@ function onBoardClick(lane, uid){
     }
 
 }
-function addStatus(card,status,value,duration){
+function applyAddStatus(card, status, value, duration){
 
     card[status].push({
 
-        value:value,
+        value: value,
 
-        duration:duration
+        duration: duration
 
     });
 
     refreshUI();
 
 }
-
-function removeStatus(card, status, index){
+function applyRemoveStatus(card, status, index){
 
     if(index < 0 || index >= card[status].length)
         return;
 
-    card[status].splice(index, 1);
+    card[status].splice(index,1);
 
     refreshUI();
 
 }
 function endTurn(){
 
-    player1Deck.forEach(card => {
+    applyEndTurn();
 
-    countdownStatuses(card);
+    sendCommand({
 
-    deselectMoves(card);
+        type: "endTurn"
 
-});
-
-    // Player 2 will be added later
-
-    refreshUI();
+    });
 
 }
 function countdownStatuses(card){
@@ -686,17 +798,19 @@ function changePoison(amount){
     refreshUI();
 
 }
-function selectMove(card, moveIndex){
+function selectMove(card, index){
 
-    card.moves.forEach(move => {
+    applySelectMove(card, index);
 
-        move.selected = false;
+    sendCommand({
+
+        type: "selectMove",
+
+        uid: card.uid,
+
+        index: index
 
     });
-
-    card.moves[moveIndex].selected = true;
-
-    refreshUI();
 
 }
 function deselectMoves(card){
@@ -710,7 +824,113 @@ function deselectMoves(card){
 }
 function changeMoveCharges(moveIndex, amount){
 
-    const move = selectedCard.moves[moveIndex];
+    if(!selectedCard)
+        return;
+
+    applyMoveCharges(
+
+        selectedCard,
+
+        moveIndex,
+
+        amount
+
+    );
+
+    sendCommand({
+
+        type: "moveCharges",
+
+        uid: selectedCard.uid,
+
+        moveIndex: moveIndex,
+
+        delta: amount
+
+    });
+
+}
+function removeCardFromDeck(player, uid){
+
+    const deck = getPlayerDeck(player);
+
+    const index = deck.findIndex(card => card.uid === uid);
+
+    if(index === -1)
+        return;
+
+    applyRemoveCard(uid);
+
+    sendCommand({
+
+        type: "removeCard",
+
+        uid: uid
+
+    });
+
+}
+function applyRemoveCard(uid){
+
+    for(const player of [1,2]){
+
+        const deck = getPlayerDeck(player);
+
+        const index = deck.findIndex(card => card.uid === uid);
+
+        if(index !== -1){
+
+            deck.splice(index,1);
+
+            break;
+
+        }
+
+    }
+
+    if(selectedCard && selectedCard.uid === uid){
+
+        selectedCard = null;
+
+    }
+
+    refreshUI();
+
+}
+function applyStatChange(uid, stat, delta){
+
+    const card = findCard(uid);
+
+    if(!card)
+        return;
+
+    card[stat] += delta;
+
+    if(card[stat] < 0){
+
+        card[stat] = 0;
+
+    }
+
+    refreshUI();
+
+}
+function applySelectMove(card, index){
+
+    card.moves.forEach(move =>
+
+        move.selected = false
+
+    );
+
+    card.moves[index].selected = true;
+
+    refreshUI();
+
+}
+function applyMoveCharges(card, moveIndex, amount){
+
+    const move = card.moves[moveIndex];
 
     if(move.charges === null)
         return;
@@ -728,23 +948,127 @@ function changeMoveCharges(moveIndex, amount){
     refreshUI();
 
 }
-function removeCardFromDeck(player, uid){
+function applyEndTurn(){
 
-    const deck = getPlayerDeck(player);
+    currentTurn = currentTurn === 1 ? 2 : 1;
 
-    const index = deck.findIndex(card => card.uid === uid);
-
-    if(index === -1)
-        return;
-
-    if(selectedCard && selectedCard.uid === uid){
-
-        selectedCard = null;
-
-    }
-
-    deck.splice(index,1);
+    updateTemporaryEffects();
 
     refreshUI();
+
+}
+function applyTemporaryEffect(card, effectName, value, duration){
+
+    card[effectName].push({
+
+        value: value,
+
+        duration: duration
+
+    });
+
+    refreshUI();
+
+}
+function updateTemporaryEffects(){
+
+    const cards = [
+
+        ...getPlayerDeck(1),
+
+        ...getPlayerDeck(2)
+
+    ];
+
+    const effects = [
+
+        "tempStrength",
+        "tempWeakness",
+        "tempSturdy",
+        "tempVulnerable",
+        "tempSwiftness",
+        "tempSlowness",
+        "tempProtection",
+        "tempAsleep",
+        "tempMarked",
+        "tempTorpidity",
+        "tempSwift",
+        "tempSluggish"
+
+    ];
+
+    cards.forEach(card=>{
+
+        effects.forEach(effect=>{
+
+            card[effect].forEach(entry=>{
+
+    entry.duration--;
+
+});
+
+card[effect] = card[effect].filter(entry=>
+
+    entry.duration > 0
+
+);
+
+        });
+
+    });
+
+}
+function addStatus(card, status, value, duration){
+
+    applyAddStatus(
+
+        card,
+
+        status,
+
+        value,
+
+        duration
+
+    );
+
+    sendCommand({
+
+        type: "addStatus",
+
+        uid: card.uid,
+
+        status: status,
+
+        value: value,
+
+        duration: duration
+
+    });
+
+}
+function removeStatus(card, status, index){
+
+    applyRemoveStatus(
+
+        card,
+
+        status,
+
+        index
+
+    );
+
+    sendCommand({
+
+        type: "removeStatus",
+
+        uid: card.uid,
+
+        status: status,
+
+        index: index
+
+    });
 
 }
