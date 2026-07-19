@@ -1,0 +1,2334 @@
+{
+    "bite": {
+        "name": "Bite",
+        "type": "Attack",
+        "damage": 2,
+        "description": "Deals 2 damage."
+    },
+
+    "leech_bite": {
+        "name": "Leech Bite",
+        "type": "Attack",
+        "damage": 1,
+        "description": "Deals 1 damage. Heal Health equal to damage dealt."
+    },
+"venomous_bite": {
+    "name": "Venomous Bite",
+    "description": "Deals 2 damage. Inflicts 1 Poison to the target.",
+    "damage": 2
+},
+
+"toxic_lick": {
+    "name": "Toxic Lick",
+    "description": "Deals 1 damage. Hits first. Inflicts 1 Poison to the target.",
+    "damage": 1,
+    "charges":2,
+    "maxCharges":2
+},
+
+"tranq_bite": {
+    "name": "Tranq Bite",
+    "description": "Deals 1 damage. Inflicts 3 Torpidity to the target.",
+    "damage": 1,
+    "charges": 4,
+    "maxCharges":4
+},
+
+"hydro_slap": {
+    "name": "Hydro Slap",
+    "description": "Deals 1 damage. Hits all lanes.",
+    "damage": 1
+},
+
+"furious_claws": {
+    "name": "Furious Claws",
+    "description": "Deals 1 damage. Hits 2 times.",
+    "damage": 1
+},
+
+"poison_claw": {
+    "name": "Poison Claw",
+    "description": "Deals 5 damage. Inflicts 2 Poison to the target.",
+    "damage": 5
+},
+
+"blood_draw": {
+    "name": "Blood Draw",
+    "description": "Deals 1 damage. Heal 1 Health to itself.",
+    "damage": 1
+},
+
+"bell_gong": {
+    "name": "Bell Gong",
+    "description": "Deals 1 damage. Gain 1 Armor.",
+    "damage": 1
+
+},
+"hammer_tail": {
+    "name": "Hammer Tail",
+    "description": "Deals 2 damage.",
+    "damage": 2
+},
+"stunning_blow": {
+    "name": "Stunning Blow",
+    "description": "Deals 1 damage. Inflicts 2 Weakness to the target.",
+    "damage": 1
+},
+
+"rollball": {
+    "name": "Rollball",
+    "description": "Deals 1 damage. Deal 1 extra damage for each Armor.",
+    "damage": 1
+},
+"swift_scratch": {
+    "name": "Swift Scratch",
+    "description": "Deals 1 damage. Hits first.",
+    "damage": 1
+},
+
+"multi_scratch": {
+    "name": "Multi-Scratch",
+    "description": "Deals 1 damage. Hits 3 times.",
+    "damage": 1,
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"swift_paw": {
+    "name": "Swift Paw",
+    "description": "Deals 2 damage. Hits first.",
+    "damage": 2,
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"exo_gnaw": {
+    "name": "Exo Gnaw",
+    "description": "Deals 1 damage. Gain 1 Sturdy for 3 turns.",
+    "damage": 1,
+    "charges": 2,
+    "maxCharges": 2 
+},
+
+"acid_spray": {
+    "name": "Acid Spray",
+    "description": "Deals 2 damage. Inflict 1 Vulnerable to the target.",
+    "damage": 2
+},
+
+"curse_of_the_void": {
+    "name": "Curse of the Void",
+    "description": "Deals 2 damage. Inflict 1 Weakness, 1 Vulnerable, 1 Slowness and 1 Poison to the target.",
+    "damage": 2
+},
+
+"meek_kick": {
+    "name": "Meek Kick",
+    "description": "Deals 1 damage.",
+    "damage": 1
+},
+
+"trap_fangs": {
+    "name": "Trap Fangs",
+    "description": "Deals 1 damage. Deal 2 extra damage if the target is faster.",
+    "damage": 1
+},
+
+"heavy_paw": {
+    "name": "Heavy Paw",
+    "description": "Deals 3 damage. Hits last.",
+    "damage": 3
+},
+
+"glow_lick": {
+    "name": "Glow Lick",
+    "description": "Deals 1 damage. Inflict 2 Vulnerable to the target.",
+    "damage": 1
+},
+
+"tongue_wiggle": {
+    "name": "Tongue Wiggle",
+    "description": "Deals 2 damage.",
+    "damage": 2
+},
+
+"bottom_feed": {
+    "name": "Bottom Feed",
+    "description": "Deals 2 damage. Restores 2 Health to itself.",
+    "damage": 2,
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"scratch": {
+    "name": "Scratch",
+    "description": "Deals 1 damage.",
+    "damage": 1
+},
+
+"mutated_strike": {
+    "name": "Mutated Strike",
+    "description": "Deals 2 damage. Deals 1 extra damage for every move & talent mutation this has.",
+    "damage": 2
+},
+
+"hit_and_hide": {
+    "name": "Hit and Hide",
+    "description": "Deals 2 damage. Gains Protection.",
+    "damage": 2,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"feces_throw": {
+    "name": "Feces Throw",
+    "description": "Deals 2 damage.",
+    "damage": 2
+},
+
+"aerostrike": {
+    "name": "Aerostrike",
+    "description": "Deals 1 damage. Hits first. Hits all lanes.",
+    "damage": 1
+},
+
+"furious_fang": {
+    "name": "Furious Fang",
+    "description": "Deals 1 damage. Hits 2 times.",
+    "damage": 1
+},
+
+"bash": {
+    "name": "Bash",
+    "description": "Deals 2 damage.",
+    "damage": 2
+},
+
+"left_claw": {
+    "name": "Left Claw",
+    "description": "Deals 2 damage. Hits the left most enemy.",
+    "damage": 2
+},
+
+"right_claw": {
+    "name": "Right Claw",
+    "description": "Deals 2 damage. Hits the right most enemy.",
+    "damage": 2
+},
+
+"deadly_bite": {
+    "name": "Deadly Bite",
+    "description": "Deals 4 damage.",
+    "damage": 4
+},
+
+"hydrostrike": {
+    "name": "Hydrostrike",
+    "description": "Deals 2 damage. Hits all lanes.",
+    "damage": 2
+},
+
+"double_kick": {
+    "name": "Double Kick",
+    "description": "Deals 2 damage. Hits 2 times.",
+    "damage": 2
+},
+
+"earthquake": {
+    "name": "Earthquake",
+    "description": "Deals 2 damage. Hits all lanes.",
+    "damage": 2,
+    "charges": 2,
+    "maxCharges": 2
+},
+"sting": {
+    "name": "Sting",
+    "description": "Deals 3 damage.",
+    "damage": 3
+},
+
+"suicide_sting": {
+    "name": "Suicide Sting",
+    "description": "Deals 6 damage. Deals 1 damage to itself.",
+    "damage": 6
+},
+
+"water_skiing": {
+    "name": "Water-Skiing",
+    "description": "Deals 1 damage. Hits 2 times.",
+    "damage": 1
+},
+
+"water_splash": {
+    "name": "Water Splash",
+    "description": "Deals 1 damage. Hits all lanes.",
+    "damage": 1,
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"trap_beak": {
+    "name": "Trap Beak",
+    "description": "Deals 2 damage. Deal 1 extra damage if the target was slower.",
+    "damage": 2
+},
+
+"adrenal_rush": {
+    "name": "Adrenal Rush",
+    "description": "Deals 4 damage. Can only be used at 1 health.",
+    "damage": 4
+},
+
+"vine_lash": {
+    "name": "Vine Lash",
+    "description": "Deals 2 damage.",
+    "damage": 2
+},
+
+"pushback": {
+    "name": "Pushback",
+    "description": "Deals 2 damage. Forces the target to retreat.",
+    "damage": 2,
+    "charges": 4,
+    "maxCharges": 4
+},
+
+"flock_attack": {
+    "name": "Flock Attack",
+    "description": "Deals 2 damage. Deal 1 extra damage for each ally of Danger Level 1.",
+    "damage": 2
+},
+
+"getaway": {
+    "name": "Getaway",
+    "description": "Deals 2 damage. At the end of the turn, retreats.",
+    "damage": 2
+},
+
+"branch_drop": {
+    "name": "Branch Drop",
+    "description": "Deals 3 damage.",
+    "damage": 3
+},
+
+"dual_stab": {
+    "name": "Dual Stab",
+    "description": "Deals 2 damage. Does not hit the opposing enemy. Targets enemies in the other lanes instead.",
+    "damage": 2
+},
+
+"free_fall": {
+    "name": "Free Fall",
+    "description": "Deals 3 damage. Hits first.",
+    "damage": 3,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"momentum": {
+    "name": "Momentum",
+    "description": "Deals 2 damage. Gains 2 Swiftness.",
+    "damage": 2
+},
+
+"sprinting_tackle": {
+    "name": "Sprinting Tackle",
+    "description": "Deals 2 damage. Deals 1 extra damage for each Swiftness on this creature.",
+    "damage": 2
+},
+
+"piercing_beak": {
+    "name": "Piercing Beak",
+    "description": "Deals 2 damage. Inflicts 3 Vulnerable to the target if it is slower.",
+    "damage": 2
+},
+
+"boldness": {
+    "name": "Boldness",
+    "description": "Deals 2 damage. Targets the enemy with the highest Health.",
+    "damage": 2
+},
+
+"punch": {
+    "name": "Punch",
+    "description": "Deals 2 damage.",
+    "damage": 2
+},
+
+"tail_swipe": {
+    "name": "Tail Swipe",
+    "description": "Deals 1 damage. Hits all lanes. Inflicts 1 Slowness to all enemies.",
+    "damage": 1
+},
+
+"repeated_strike": {
+    "name": "Repeated Strike",
+    "description": "Deals 2 damage. Increase this move's damage by 1 for the rest of the battle.",
+    "damage": 2
+},
+
+"swift_bite": {
+    "name": "Swift Bite",
+    "description": "Deals 2 damage. Hits first.",
+    "damage": 2
+},
+
+"excitement": {
+    "name": "Excitement",
+    "description": "Deals 2 damage. Hits first if at full health.",
+    "damage": 2
+},
+
+"scourge": {
+    "name": "Scourge",
+    "description": "Deals 3 damage. Inflicts Poison to itself and the target.",
+    "damage": 3
+},
+
+"weak_sting": {
+    "name": "Weak Sting",
+    "description": "Deals 2 damage.",
+    "damage": 2
+},
+
+"discharge": {
+    "name": "Discharge",
+    "description": "Deals 2 damage. damage increase by 2 at the end of each turn. Resets when used.",
+    "damage": 2
+},
+
+"headbutt": {
+    "name": "Headbutt",
+    "description": "Deals 4 damage.",
+    "damage": 4,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"neurotoxin": {
+    "name": "Neurotoxin",
+    "description": "Deals 3 damage.",
+    "damage": 3
+},
+
+"peck": {
+    "name": "Peck",
+    "description": "Deals 2 damage.",
+    "damage": 2
+},
+
+"eggplosion": {
+    "name": "Eggplosion",
+    "description": "Deals 5 damage. Deals 2 damage to itself.",
+    "damage": 5
+},
+
+"last_resort": {
+    "name": "Last Resort",
+    "description": "Deals 5 damage. Inflicts 2 Weakness and Unretreatable to itself.",
+    "damage": 5,
+    "charges": 1,
+    "maxCharges": 1
+},
+"blunt_hit": {
+    "name": "Blunt Hit",
+    "description": "Deals 2 damage. Inflicts 3 Torpidity to the target.",
+    "damage": 2
+},
+
+"jumpscare": {
+    "name": "Jumpscare",
+    "description": "Deals 1 damage. Inflict 1 Weakness to the target.",
+    "damage": 1
+},
+
+"tackle": {
+    "name": "Tackle",
+    "description": "Deals 3 damage.",
+    "damage": 3,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"snowpile": {
+    "name": "Snowpile",
+    "description": "Deals 1 damage. Inflicts 3 Slowness.",
+    "damage": 1
+},
+
+"pierce": {
+    "name": "Pierce",
+    "description": "Deals 3 damage.",
+    "damage": 3
+},
+
+"collision": {
+    "name": "Collision",
+    "description": "Deals 3 damage.",
+    "damage": 3,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"toxic_wave": {
+    "name": "Toxic Wave",
+    "description": "Deals 1 damage. Hits all lanes. Inflicts 1 Poison to all enemies.",
+    "damage": 1,
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"knockdown": {
+    "name": "Knockdown",
+    "description": "Deals 2 damage. Removes all positive effects from the target.",
+    "damage": 2
+},
+
+"hoof_stomp": {
+    "name": "Hoof Stomp",
+    "description": "Deals 3 damage.",
+    "damage": 3
+},
+
+"body_slam": {
+    "name": "Body Slam",
+    "description": "Deals 3 damage.",
+    "damage": 3
+},
+
+"biotoxic_swipe": {
+    "name": "Biotoxic Swipe",
+    "description": "Deals 2 damage. Deals triple damage if the target has Poison.",
+    "damage": 2
+},
+
+"stinger_charge": {
+    "name": "Stinger Charge",
+    "description": "Deals 3 damage. Inflicts 1 Poison to the target.",
+    "damage": 3
+},
+
+"heavy_bite": {
+    "name": "Heavy Bite",
+    "description": "Deals 5 damage. Hits last.",
+    "damage": 5,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"patience": {
+    "name": "Patience",
+    "description": "Deals 3 damage. Deals 3 extra damage if this has 0 speed.",
+    "damage": 3
+},
+
+"razorpetal": {
+    "name": "Razorpetal",
+    "description": "Deals 3 damage.",
+    "damage": 3
+},
+
+"laceration": {
+    "name": "Laceration",
+    "description": "Deals 5 damage. Falls Asleep.",
+    "damage": 5
+},
+
+"magnify": {
+    "name": "Magnify",
+    "description": "Deals 3 damage. Deals 7 extra damage if an ally has already used Magnify this turn.",
+    "damage": 3
+},
+
+"sky_strike": {
+    "name": "Sky Strike",
+    "description": "Deals 4 damage.",
+    "damage": 4
+},
+
+"plate_slam": {
+    "name": "Plate Slam",
+    "description": "Deals 3 damage. Gains 1 Armor.",
+    "damage": 3
+},
+
+"armored_tackle": {
+    "name": "Armored Tackle",
+    "description": "Deals 3 damage. Deals double damage if this creature has Armor.",
+    "damage": 3
+},
+"slumber_smash": {
+    "name": "Slumber Smash",
+    "description": "Deals 5 damage. Deals double damage if the target is Asleep.",
+    "damage": 5
+},
+
+"absorb": {
+    "name": "Absorb",
+    "description": "Deals 1 damage. If this kills the target, gains its talents forever.",
+    "damage": 1,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"sleeping_shot": {
+    "name": "Sleeping Shot",
+    "description": "Deals 2 damage. Inflicts 1 Torpidity for each damage dealt.",
+    "damage": 2
+},
+
+"devour": {
+    "name": "Devour",
+    "description": "Deals 2 damage. If this kills the target, gains 2 max Health and regains 2 Health.",
+    "damage": 2
+},
+
+"trick": {
+    "name": "Trick",
+    "description": "Deals 3 damage. Damage increase by 1 when an item is consumed.",
+    "damage": 3,
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"burning_bite": {
+    "name": "Burning Bite",
+    "description": "Deals 4 damage.",
+    "damage": 4
+},
+
+"overheat": {
+    "name": "Overheat",
+    "description": "Deals 4 damage. Inflicts 2 Slowness to itself.",
+    "damage": 4
+},
+
+"steam_purge": {
+    "name": "Steam Purge",
+    "description": "Deals 2 damage. Removes its negative effects. Hits an extra time for each effect removed.",
+    "damage": 2,
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"cruelty": {
+    "name": "Cruelty",
+    "description": "Deals 4 damage. Deals 3 extra damage if the target has Weakness.",
+    "damage": 4
+},
+
+"flurry": {
+    "name": "Flurry",
+    "description": "Deals 1 damage. Hits 3 times.",
+    "damage": 1
+},
+
+"maneuver": {
+    "name": "Maneuver",
+    "description": "Deals 3 damage. Gains 2 Swiftness.",
+    "damage": 3
+},
+
+"crushing_weight": {
+    "name": "Crushing Weight",
+    "description": "Deals 4 damage.",
+    "damage": 4
+},
+
+"snow_plow": {
+    "name": "Snowplow",
+    "description": "Deals 3 damage. Inflicts 2 Slowness to creatures adjacent to the target.",
+    "damage": 3
+},
+
+"blizzard": {
+    "name": "Blizzard",
+    "description": "Deals 2 damage. Hits all lanes. Inflicts 2 Slowness to all enemies.",
+    "damage": 2,
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"lazy_strike": {
+    "name": "Lazy Strike",
+    "description": "Deals 2 damage.",
+    "damage": 2
+},
+
+"bone_breaker": {
+    "name": "Bone Breaker",
+    "description": "Deals 2 damage. Inflicts 3 Slowness to the target.",
+    "damage": 2
+},
+
+"double_bite": {
+    "name": "Double Bite",
+    "description": "Deals 2 damage. Hits 2 times.",
+    "damage": 2
+},
+
+"swift_jaws": {
+    "name": "Swift Jaws",
+    "description": "Deals 1 damage. Hits first. Hits twice.",
+    "damage": 1
+},
+
+"munch_fury": {
+    "name": "Munch Fury",
+    "description": "Deals 1 damage. Hits all lanes twice.",
+    "damage": 1,
+    "charges": 1,
+    "maxCharges": 1
+},
+"giga_sting": {
+    "name": "Giga Sting",
+    "description": "Deals 7 damage.",
+    "damage": 7,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"needle_tail": {
+    "name": "Needle Tail",
+    "description": "Deals 3 damage.",
+    "damage": 3
+},
+
+"frenzy": {
+    "name": "Frenzy",
+    "description": "Deals 2 damage. If this kills the target, this move gets repeated.",
+    "damage": 2
+},
+
+"death_sting": {
+    "name": "Death Sting",
+    "description": "Deals 6 damage.",
+    "damage": 6
+},
+
+"siphon_soul": {
+    "name": "Siphon Soul",
+    "description": "Deals 4 damage.",
+    "damage": 4
+},
+
+"suction_cups": {
+    "name": "Suction Cups",
+    "description": "Deals 1 damage. Gain 1 Strength. Inflicts 1 Weakness to the target.",
+    "damage": 1
+},
+
+"gaping_mouth": {
+    "name": "Gaping Mouth",
+    "description": "Deals 2 damage. Hits all lanes.",
+    "damage": 2
+},
+
+"vilespine": {
+    "name": "Vilespine",
+    "description": "Deals 2 damage. Inflicts 3 Poison to the target.",
+    "damage": 2
+},
+
+"tidal_wave": {
+    "name": "Tidal Wave",
+    "description": "Deals 3 damage. Hits all lanes.",
+    "damage": 3,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"overpower": {
+    "name": "Overpower",
+    "description": "Deals 7 damage. Falls Asleep.",
+    "damage": 7
+},
+
+"pounce": {
+    "name": "Pounce",
+    "description": "Deals 8 damage.",
+    "damage": 8,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"predation": {
+    "name": "Predation",
+    "description": "Deals 5 damage. Hits 2 times if the target has Slowness.",
+    "damage": 5
+},
+
+"blood_surge": {
+    "name": "Blood Surge",
+    "description": "Deals 3 damage. Deal 1 extra damage for every time this creature was healed.",
+    "damage": 3
+},
+
+"obliteration": {
+    "name": "Obliteration",
+    "description": "Deals 5 damage.",
+    "damage": 5
+},
+
+"upper_cut": {
+    "name": "Upper Cut",
+    "description": "Deals 4 damage. Inflicts 3 Torpidity to the target.",
+    "damage": 4
+},
+
+"brawl": {
+    "name": "Brawl",
+    "description": "Deals 2 damage. Hits all lanes. Inflicts 1 Torpidity to all enemies.",
+    "damage": 2
+},
+
+"knock_out": {
+    "name": "Knock-Out",
+    "description": "Deals 2 damage. Hits 3 times. Inflicts 1 Torpidity each time.",
+    "damage": 2,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"flying_punch": {
+    "name": "Flying Punch",
+    "description": "Deals 3 damage. Hits first. Inflicts 2 Torpidity to the target.",
+    "damage": 3
+},
+"claw": {
+    "name": "Claw",
+    "description": "Deals 3 damage.",
+    "damage": 3
+},
+
+"concussion": {
+    "name": "Concussion",
+    "description": "Deals 2 damage. The target and itself fall Asleep.",
+    "damage": 2,
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"awakened_punch": {
+    "name": "Awakened Punch",
+    "description": "Deals 4 damage. Can be used even while Asleep.",
+    "damage": 4
+},
+
+"nocturnal_demon": {
+    "name": "Nocturnal Demon",
+    "description": "Deals 10 damage. Can only be used while Asleep.",
+    "damage": 10
+},
+
+"spiky_slam": {
+    "name": "Spiky Slam",
+    "description": "Deals 7 damage.",
+    "damage": 7
+},
+
+"savagery": {
+    "name": "Savagery",
+    "description": "Deals 3 damage. Hits 3 times.",
+    "damage": 3,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"stubbornness": {
+    "name": "Stubbornness",
+    "description": "Deals 4 damage. Inflicts Unretreatable to itself.",
+    "damage": 4
+},
+
+"bolt": {
+    "name": "Bolt",
+    "description": "Deals 4 damage. Hits first.",
+    "damage": 4
+},
+
+"shell_bash": {
+    "name": "Shell Bash",
+    "description": "Deals 4 damage. Deal double damage if this creature has Protection.",
+    "damage": 4
+},
+
+"bold_grab": {
+    "name": "Bold Grab",
+    "description": "Deals 5 damage. Inflicts 1 Vulnerable to itself.",
+    "damage": 5,
+    "charges": 3,
+    "maxCharges": 3
+},
+
+"signal_flare": {
+    "name": "Signal Flare",
+    "description": "Deals 3 damage. Draws 3 cards.",
+    "damage": 3
+},
+
+"hidden_power": {
+    "name": "Hidden Power",
+    "description": "Deals 10 damage. Can only be used if this creature has Weakness, Slowness or Vulnerable.",
+    "damage": 10
+},
+
+"needle_bite": {
+    "name": "Needle Bite",
+    "description": "Deals 5 damage.",
+    "damage": 5
+},
+
+"curare_bite": {
+    "name": "Curare Bite",
+    "description": "Deals 4 damage. Inflicts 4 Slowness to the target.",
+    "damage": 4
+},
+
+"last_surprise": {
+    "name": "Last Surprise",
+    "description": "Deals 1 damage. On its last use, deals 10 damage to all enemies.",
+    "damage": 1,
+    "charges": 3,
+    "maxCharges": 3
+},
+
+"trickery": {
+    "name": "Trickery",
+    "description": "Deals 4 damage. Switches places with the ally to its left.",
+    "damage": 4
+},
+
+"drone_charge": {
+    "name": "Drone Charge",
+    "description": "Deals 5 damage. Inflicts 1 Slowness. At the end of the turn, retreats to your hand.",
+    "damage": 5
+},
+
+"sonic_boom": {
+    "name": "Sonic Boom",
+    "description": "Deals 5 damage. Inflicts 2 Slowness to the target.",
+    "damage": 5
+},
+
+"echo": {
+    "name": "Echo",
+    "description": "Deals 2 damage. Hits 2 times. Increases every time Echo is used this battle.",
+    "damage": 2
+},
+
+"sharp_claw": {
+    "name": "Sharp Claw",
+    "description": "Deals 4 damage.",
+    "damage": 4
+},
+
+"all_out_attack": {
+    "name": "All-Out Attack",
+    "description": "Deals 5 damage. Disables its own talent for the rest of the battle.",
+    "damage": 5
+},
+
+"scythe_swipe": {
+    "name": "Scythe Swipe",
+    "description": "Deals 6 damage.",
+    "damage": 6
+},
+
+"onslaught": {
+    "name": "Onslaught",
+    "description": "Deals 5 damage. Hits 3 times if the target has 0 speed.",
+    "damage": 5
+},
+
+"bone_freeze": {
+    "name": "Bone Freeze",
+    "description": "Deals 4 damage. Inflicts 1 Slowness for each damage dealt.",
+    "damage": 4
+},
+
+"pursuit": {
+    "name": "Pursuit",
+    "description": "Deals 5 damage. Deal 1 extra damage for each Slowness the target has.",
+    "damage": 5
+},
+
+"sightless_swipe": {
+    "name": "Sightless Swipe",
+    "description": "Deals 5 damage. Hits all enemies once for every Marked they have.",
+    "damage": 5
+},
+
+"screech": {
+    "name": "Screech",
+    "description": "Deals 5 damage.",
+    "damage": 5
+},
+
+"hyperimpact": {
+    "name": "Hyperimpact",
+    "description": "Deals damage equal to its speed.",
+    "damage": 0
+},
+
+"critical_strike": {
+    "name": "Critical Strike",
+    "description": "Deals 3 damage. Hits 2 times if the target has Vulnerable.",
+    "damage": 3
+},
+
+"tongue_furry": {
+    "name": "Tongue Furry",
+    "description": "Deals 1 damage. Hits 3 times. Inflicts 1 Vulnerable each time.",
+    "damage": 1,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"blind_rage": {
+    "name": "Blind Rage",
+    "description": "Deals 7 damage. Inflicts 2 Weakness to itself.",
+    "damage": 7
+},
+
+"predatory_strike": {
+    "name": "Predatory Strike",
+    "description": "Deals 4 damage. Target the enemy with the lowest Health.",
+    "damage": 4
+},
+
+"crystal_charge": {
+    "name": "Crystal Charge",
+    "description": "Deals 4 damage. Inflicts 4 Torpidity to the target.",
+    "damage": 4
+},
+
+"affliction": {
+    "name": "Affliction",
+    "description": "Deals 4 damage. Doubles the target's negative effects.",
+    "damage": 4
+},
+
+"quiet_death": {
+    "name": "Quiet Death",
+    "description": "Deals 8 damage. If the target is Asleep, doesn't lose its limited use.",
+    "damage": 8,
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"lightstorm": {
+    "name": "Lightstorm",
+    "description": "Deals 8 damage.",
+    "damage": 8
+},
+
+"tornado_swarm": {
+    "name": "Tornado Swarm",
+    "description": "Deals 3 damage. Hits all lanes.",
+    "damage": 3
+},
+
+"double_injection": {
+    "name": "Double Injection",
+    "description": "Deals 2 damage. Hits 2 times. Inflicts 1 Poison each time.",
+    "damage": 2
+},
+
+"flail_tail": {
+    "name": "Flail Tail",
+    "description": "Deals 4 damage.",
+    "damage": 4
+},
+
+"horn_skewer": {
+    "name": "Horn Skewer",
+    "description": "Deals 3 damage. Targets the leftmost enemy, then targets the rightmost enemy.",
+    "damage": 3
+},
+
+"gigaton_press": {
+    "name": "Gigaton Press",
+    "description": "Deals damage equal to its Health.",
+    "damage": 0
+},
+
+"shred": {
+    "name": "Shred",
+    "description": "Deals 3 damage. Hits 2 times.",
+    "damage": 3
+},
+
+"chomp": {
+    "name": "Chomp",
+    "description": "Deals 3 damage. Restores 2 Health to itself.",
+    "damage": 3,
+    "charges": 5,
+    "maxCharges": 5
+},
+
+"death_stoop": {
+    "name": "Death Stoop",
+    "description": "Deals 5 damage.",
+    "damage": 5
+},
+
+"fortified_assault": {
+    "name": "Fortified Assault",
+    "description": "Deals 4 damage. Gains 2 Armor.",
+    "damage": 4
+},
+
+"ink_splatter": {
+    "name": "Ink Splatter",
+    "description": "Deals 2 damage. Hits all lanes. Inflicts Sluggish to all enemies.",
+    "damage": 2
+},
+
+"acidic_slime": {
+    "name": "Acidic Slime",
+    "description": "Deals 3 damage.",
+    "damage": 3
+},
+
+"regurgitate": {
+    "name": "Regurgitate",
+    "description": "Deals 4 damage. Adds Chyme to your inventory. Usable only if it ate food this turn.",
+    "damage": 4
+},
+
+"melody": {
+    "name": "Melody",
+    "description": "Deals 2 damage. When an ally retreats, increase this move's damage by 1.",
+    "damage": 2
+},
+
+"reactive_stab": {
+    "name": "Reactive Stab",
+    "description": "Deals 2 damage. Targets all enemies that have Detected.",
+    "damage": 2
+},
+"bloom": {
+    "name": "Bloom",
+    "description": "Restore 2 Health to its team.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"evolution": {
+    "name": "Evolution",
+    "description": "Deals 1 damage to itself. Gains a random talent or move mutation permanently.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"sticky_spores": {
+    "name": "Sticky Spores",
+    "description": "Inflict Sluggish to the target."
+},
+
+"strange_scent": {
+    "name": "Strange Scent",
+    "description": "All Weakness on the board are replaced with Slowness and vice versa."
+},
+
+"slow_injection": {
+    "name": "Slow Injection",
+    "description": "Inflicts 4 Poison. If the target has Slowness, doesn't lose its limited use.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"metastasis": {
+    "name": "Metastasis",
+    "description": "Inflicts 2 Poison to all poisoned enemies."
+},
+
+"wind_gust": {
+    "name": "Wind Gust",
+    "description": "Gives 3 Swiftness to the ally to its right."
+},
+
+"night_terror": {
+    "name": "Night Terror",
+    "description": "The target falls Asleep. If it is already asleep, it takes 10 damage.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"tummy_thrum": {
+    "name": "Tummy Thrum",
+    "description": "Deals 1 damage to itself to gain 1 Strength for 2 turns. Repeats until it has 1 Health left (max 8 times).",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"cover": {
+    "name": "Cover",
+    "description": "Gives 3 Sturdy to the ally to its right this turn only."
+},
+
+"tailwind": {
+    "name": "Tailwind",
+    "description": "Gives Swift to the ally to its right.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"fog_of_war": {
+    "name": "Fog of War",
+    "description": "Inflicts 3 Weakness for 2 turns to ALL creatures.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"healing_spout": {
+    "name": "Healing Spout",
+    "description": "Removes all effects. Regains 1 Health for each effect removed."
+},
+
+"infection": {
+    "name": "Infection",
+    "description": "Inflicts 2 Poison to the target."
+},
+
+"distraction": {
+    "name": "Distraction",
+    "description": "Gain 2 Armor. Gives 1 Strength to the ally to its right."
+},
+
+"poisoned_gift": {
+    "name": "Poisoned Gift",
+    "description": "Inflicts 1 Poison and applies 2 Strength and 2 Swiftness to its team.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"crystalization": {
+    "name": "Crystalization",
+    "description": "Gains 3 Armor.",
+    "charges": 3,
+    "maxCharges": 3
+},
+
+"enlighten": {
+    "name": "Enlighten",
+    "description": "Gives 6 Swiftness for 3 turns to the ally to its right."
+},
+
+"block": {
+    "name": "Block",
+    "description": "Hits first. Gain 2 Sturdy for this turn only.",
+    "charges": 3,
+    "maxCharges": 3
+},
+
+"pleading_face": {
+    "name": "Pleading Face",
+    "description": "Inflict 3 Weakness to the target for 1 turn.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"toughen_up": {
+    "name": "Toughen Up",
+    "description": "Gains 1 Sturdy.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"dominance": {
+    "name": "Dominance",
+    "description": "Gains 1 Strength."
+},
+
+"ice_leech": {
+    "name": "IceLeech",
+    "description": "Steal Health from target equal to amount of Slowness they have."
+},
+
+"charm": {
+    "name": "Charm",
+    "description": "Inflicts Charmed to the target for 2 turns."
+},
+
+"poop_taunt": {
+    "name": "Poop Taunt",
+    "description": "Gains 1 Strength and 1 Swiftness."
+},
+
+"defecation": {
+    "name": "Defecation",
+    "description": "Adds Glowing Substance to your inventory.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"morale_boost": {
+    "name": "Morale Boost",
+    "description": "Gives 2 Strength to the ally on its right."
+},
+
+"electric_shock": {
+    "name": "Electric Shock",
+    "description": "Inflicts 2 Slowness and 2 Vulnerable to the target."
+},
+
+"paradigm_shift": {
+    "name": "Paradigm Shift",
+    "description": "Discard your hand and redraw that many cards."
+},
+
+"vilespores": {
+    "name": "Vilespores",
+    "description": "Inflicts 1 Slowness and 1 Weakness to all enemies, then falls Asleep."
+},
+
+"poisoned_scales": {
+    "name": "Poisoned Scales",
+    "description": "Gains 2 Armor. Inflict 1 Poison to the target.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"guard": {
+    "name": "Guard",
+    "description": "Gain 2 Armor."
+},
+
+"chrysalis": {
+    "name": "Chrysalis",
+    "description": "Gains 5 Armor and falls Asleep."
+},
+
+"parting_gift": {
+    "name": "Parting Gift",
+    "description": "Gives a copy of its positive effects to its allies. At the end of the turn, retreats."
+},
+
+"anesthesia": {
+    "name": "Anesthesia",
+    "description": "The target falls Asleep.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"overconfidence": {
+    "name": "Overconfidence",
+    "description": "Gains 2 Strength and 2 Swiftness, inflicts 1 Vulnerable to self."
+},
+
+"group_roar": {
+    "name": "Group Roar",
+    "description": "Gives 2 Strength and 2 Swiftness to its team for 1 turn."
+},
+
+"lullaby": {
+    "name": "Lullaby",
+    "description": "Hits last. The target falls Asleep.",
+    "charges": 5,
+    "maxCharges": 5
+},
+
+"entrench": {
+    "name": "Entrench",
+    "description": "At the end of the turn, gives 2 Sturdy and 2 Weakness to its team.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"venom": {
+    "name": "Venom",
+    "description": "Inflicts 3 Poison to the target."
+},
+
+"contagion": {
+    "name": "Contagion",
+    "description": "Inflicts 1 Poison to all enemies."
+},
+
+"glorious_roar": {
+    "name": "Glorious Roar",
+    "description": "Gains 3 Swiftness and 3 Strength for 2 turns."
+},
+"herbfinder": {
+    "name": "Herbfinder",
+    "description": "Adds 1 Medicinal Herb to your inventory.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"submerge": {
+    "name": "Submerge",
+    "description": "Hits first. Gains Protection. At the end of the round, retreats.",
+    "charges": 3,
+    "maxCharges": 3
+},
+
+"encouragement": {
+    "name": "Encouragement",
+    "description": "Gives 4 Strength to the ally on its right for this turn only."
+},
+
+"narcotic_scales": {
+    "name": "Narcotic Scales",
+    "description": "Inflicts 2 Torpidity to all enemies. Gains 2 Armor.",
+    "charges": 4,
+    "maxCharges": 4
+},
+
+"narcotic_emission": {
+    "name": "Narcotic Emission",
+    "description": "Inflicts 4 Torpidity to the target."
+},
+
+"snooze": {
+    "name": "Snooze",
+    "description": "Restore 4 Health to itself.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"flu": {
+    "name": "Flu",
+    "description": "Inflicts 1 Weakness and 1 Poison to the target."
+},
+
+"curing_song": {
+    "name": "Curing Song",
+    "description": "Removes all negative effects from its team."
+},
+
+"chillwind": {
+    "name": "Chillwind",
+    "description": "Inflicts 2 Slowness to the target."
+},
+
+"frostbite": {
+    "name": "Frostbite",
+    "description": "Deals 1 damage to all enemies for each Slowness they have."
+},
+
+"ascension": {
+    "name": "Ascension",
+    "description": "After 2 uses, permanently evolves the creature.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"sharpen": {
+    "name": "Sharpen",
+    "description": "Gains 3 Strength for 4 turns."
+},
+
+"acceleration": {
+    "name": "Acceleration",
+    "description": "Gains 4 Swiftness for 4 turns."
+},
+
+"anesthetic_gas": {
+    "name": "Anesthetic Gas",
+    "description": "At the end of the turn, all other creatures fall Asleep.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"shell_regrowth": {
+    "name": "Shell Regrowth",
+    "description": "Restores 2 Health to self.",
+    "charges": 4,
+    "maxCharges": 4
+},
+
+"shells_up": {
+    "name": "Shells Up",
+    "description": "Gives 2 Armor to its team.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"ironhead": {
+    "name": "Ironhead",
+    "description": "Gains 9 Armor.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"dig": {
+    "name": "Dig",
+    "description": "Inflicts 5 Slowness to self and gains 2 Sturdy for 3 turns."
+},
+
+"mistcall": {
+    "name": "Mistcall",
+    "description": "Gives 1 Strength, 1 Armor and restores 1 Health to its team.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"lunar_call": {
+    "name": "Lunar Call",
+    "description": "Fully restores the uses of all limited-use moves for its team.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"growl": {
+    "name": "Growl",
+    "description": "Inflicts 1 Weakness to all enemies for 2 turns."
+},
+
+"malice": {
+    "name": "Malice",
+    "description": "Inflicts 2 Slowness and 1 Weakness to the target."
+},
+
+"fruit_growth": {
+    "name": "Fruit Growth",
+    "description": "Adds Fruit of Might to your inventory.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"hardening": {
+    "name": "Hardening",
+    "description": "Gains 3 Armor.",
+    "charges": 3,
+    "maxCharges": 3
+},
+
+"narco_lick": {
+    "name": "Narco-Lick",
+    "description": "Restores 1 Health to itself. Inflicts 3 Torpidity to the target.",
+    "charges": 3,
+    "maxCharges": 3
+},
+
+"smoke_bomb": {
+    "name": "Smoke Bomb",
+    "description": "Immediately retreats its team and draws 3 cards.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"self_sacrifice": {
+    "name": "Self-Sacrifice",
+    "description": "Deals 3 damage to itself. Adds Meat to your inventory.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"death_stare": {
+    "name": "Death Stare",
+    "description": "Inflicts 5 Weakness to the target for 2 turns.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"treachery": {
+    "name": "Treachery",
+    "description": "Inflicts 1 Vulnerable to all allies and gains 4 Strength."
+},
+
+"hypnocry": {
+    "name": "Hypnocry",
+    "description": "The target falls Asleep.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"landing": {
+    "name": "Landing",
+    "description": "Inflicts 2 Slowness to itself. Gains 4 Strength."
+},
+
+"rest": {
+    "name": "Rest",
+    "description": "Falls Asleep, regains 6 Health."
+},
+
+"piercing_gaze": {
+    "name": "Piercing Gaze",
+    "description": "Gains 1 Strength. Inflicts 1 Vulnerable to the target."
+},
+
+"rock_hard_plates": {
+    "name": "Rock-Hard Plates",
+    "description": "Gains 5 Armor.",
+    "charges": 3,
+    "maxCharges": 3
+},
+
+"idle": {
+    "name": "Idle",
+    "description": "Does nothing..."
+},
+"sarin_spray": {
+    "name": "Sarin Spray",
+    "description": "Inflicts 3 Poison. Increase with Strength.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"pestilence": {
+    "name": "Pestilence",
+    "description": "Inflicts 2 Poison to all enemies."
+},
+
+"staredown": {
+    "name": "Staredown",
+    "description": "Inflicts 7 Slowness to the target."
+},
+
+"lifepulse": {
+    "name": "Lifepulse",
+    "description": "Restores 4 Health to itself.",
+    "charges": 3,
+    "maxCharges": 3
+},
+
+"rebirth": {
+    "name": "Rebirth",
+    "description": "Fully heals itself.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"hypnowave": {
+    "name": "Hypnowave",
+    "description": "The target and all creatures to its left fall Asleep.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"traumatizing_sight": {
+    "name": "Traumatizing Sight",
+    "description": "Dies to inflict 10 Weakness to the target for 1 turn.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"preparation": {
+    "name": "Preparation",
+    "description": "Gains 3 Strength and 3 Swiftness."
+},
+
+"blinding_flare": {
+    "name": "Blinding Flare",
+    "description": "Inflicts 4 Vulnerable to the target."
+},
+
+"black_hole": {
+    "name": "Black Hole",
+    "description": "Steals all effects from all creatures."
+},
+
+"malediction": {
+    "name": "Malediction",
+    "description": "Gives a curse to the target."
+},
+
+"impediment": {
+    "name": "Impediment",
+    "description": "Renders the target's last used move unusable for 3 turns.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"paralytic_agent": {
+    "name": "Paralytic Agent",
+    "description": "Inflicts as much Poison to all enemies as much as they have Slowness."
+},
+
+"curare_emission": {
+    "name": "Curare Emission",
+    "description": "Inflicts 3 Slowness to all enemies.",
+    "charges": 5,
+    "maxCharges": 5
+},
+
+"beacon": {
+    "name": "Beacon",
+    "description": "Gives 2 Strength to its team.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"resurgence": {
+    "name": "Resurgence",
+    "description": "Replaces each negative effect from its team with 1 Strength."
+},
+
+"hail": {
+    "name": "Hail",
+    "description": "Inflicts 3 Slowness to all enemies. Gains 1 Strength."
+},
+
+"echolocation": {
+    "name": "Echolocation",
+    "description": "Inflicts 1 Detected to all enemies."
+},
+
+"acid_wave": {
+    "name": "Acid Wave",
+    "description": "Inflicts Vulnerable to all enemies."
+},
+
+"claw_barrier": {
+    "name": "Claw Barrier",
+    "description": "Applies 1 Sturdy to its team for 2 turns.",
+    "charges": 3,
+    "maxCharges": 3
+},
+
+"sedation": {
+    "name": "Sedation",
+    "description": "The target falls Asleep.",
+    "charges": 3,
+    "maxCharges": 3
+},
+
+"horror_scream": {
+    "name": "Horror Scream",
+    "description": "Inflicts 2 Weakness to all enemies for 1 turn.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"spine_volley": {
+    "name": "Spine Volley",
+    "description": "Loses all its Armor to deal that much damage to all enemies."
+},
+
+"rallying_cry": {
+    "name": "Rallying Cry",
+    "description": "Fills the board with Hell Rats.",
+    "charges": 2,
+    "maxCharges": 2
+},
+
+"last_stand": {
+    "name": "Last Stand",
+    "description": "Applies 3 Strength, 1 Sturdy and Unretreatable to its team."
+},
+
+"hallucinogen": {
+    "name": "Hallucinogen",
+    "description": "Inflicts 2 Vulnerable to the target."
+},
+
+"crystal_surge": {
+    "name": "Crystal Surge",
+    "description": "Doubles the positive effects of its team.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"illumination": {
+    "name": "Illumination",
+    "description": "Gives 1 Swiftness to its team."
+},
+
+"sugary_sap": {
+    "name": "Sugary Sap",
+    "description": "Restores 1 Health to its team. Draws 2 cards."
+},
+
+"fulmination": {
+    "name": "Fulmination",
+    "description": "Triggers all of the target's Poison damage instantly."
+},
+
+"toxin_bomb": {
+    "name": "Toxin Bomb",
+    "description": "Deals 1 damage to all enemies for each Poison they have."
+},
+"soil_absorption": {
+    "name": "Soil Absorption",
+    "description": "Gains 5 Strength for 3 turns and falls Asleep."
+},
+"adrenaline_shot": {
+    "name": "Adrenaline Shot",
+    "description": "If the ally to its left died this turn, resurrects it with 1 Health.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"booster_shot": {
+    "name": "Booster Shot",
+    "description": "Restores 4 Health to allies that have exactly 1 Health left.",
+    "charges": 1,
+    "maxCharges": 1
+},
+
+"transfusion": {
+    "name": "Transfusion",
+    "description": "Restores 4 Health to the ally to its right.",
+    "charges": 1,
+    "maxCharges": 1
+},
+"toxic_fart": {
+    "name": "Toxic Fart",
+    "description": "Applies Poison to all creatures."
+},
+
+"toxin_rush": {
+    "name": "Toxin Rush",
+    "description": "Deals 2 damage. If this is Poisoned, hits all lanes.",
+    "damage": 2
+},
+"controlled_kick": {
+    "name": "Controlled Kick",
+    "description": "Deals 4 damage. Can't take the target bellow 1 Health.",
+    "damage": 4
+},
+"rebelion": {
+    "name": "Rebelion",
+    "description": "Deals 5 damage. hits first. Leaves the deck.",
+    "damage": 5,
+    "charges": 1,
+    "maxCharges": 1
+},
+"hoof_kick": {
+    "name": "Hoof Kick",
+    "description": "Deals 2 damage.",
+    "damage": 2
+},
+"bonk": {
+    "name": "Bonk",
+    "description": "Deals 1 damage. Deals 2 extra damage for each Sturdy.",
+    "damage": 1
+},
+"retraction": {
+    "name": "Retraction",
+    "description": "Deals 1 damage. Gains 1 Sturdy for 1 turn.",
+    "damage": 1,
+    "charges": 4,
+    "maxCharges": 4
+},
+"shelter": {
+    "name": "Shelter",
+    "description": "Gains 2 Sturdy for 1 turn.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"liberation": {
+    "name": "Liberation",
+    "description": "Removes its negative effects and gains 3 Swiftness."
+},
+"lazy_kick": {
+    "name": "Lazy Kick",
+    "description": "Deals 1 damage.",
+    "damage": 1
+},
+"aquired_state": {
+    "name": "Aquired State",
+    "description": "Steals all of the target's possitive effects."
+
+},
+"max_effort": {
+    "name": "Max Effort",
+    "description": "Deals 8 damage. Only usable if it has atleast 2 Vulnerable.",
+    "damage": 8
+},
+"venom_sting": {
+    "name": "Venom Sting",
+    "description": "Deals 1 damage. Inflicts 2 Poison.",
+    "damage": 1
+},
+"snappy_dart": {
+    "name": "Snappy Dart",
+    "description": "Gains 2 Swiftness. Inflicts 2 Poison to the target."
+},
+"kinetitoxin": {
+    "name": "Kinetitoxin",
+    "description": "Inflicts as much Poison as this has Swiftness.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"growing sting": {
+    "name": "Growing Sting",
+    "description": "Inflicts 1 Poison. Increases amount by 1 forever.",
+    "charges": 1,
+    "maxCharges": 1
+},
+"burrow": {
+    "name": "Burrow",
+    "description": "Hits first. Gains 2 Armor.",
+    "charges": 4,
+    "maxCharges": 4
+},
+"flex": {
+    "name": "Flex",
+    "description": "Gains 1 Armor. Increases with Strength.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"rageplate": {
+    "name": "Rageplate",
+    "description": "Gains 1 Armor. Amount increases by 1 forever when this creature kills another.",
+    "charges": 1,
+    "maxCharges": 1
+},
+"reinforcement": {
+    "name": "Reinforcement",
+    "description": "Gains 1 Strength and 2 Armor.",
+    "charges": 3,
+    "maxCharges": 3
+},
+"pollinization": {
+    "name": "Pollinization",
+    "description": "Deals 1 damage. Restores 1 Health to adjacent allies.",
+    "damage": 1,
+    "charges": 2,
+    "maxCharges": 2
+},
+"nectarify": {
+    "name": "Nectarify",
+    "description": "Deals 1 damage. If this kills, adds 2 honey to your inventory.",
+    "damage": 1,
+    "charges": 1,
+    "maxCharges": 1
+},
+"cartwheel": {
+    "name": "Cartwheel",
+    "description": "Deals 1 damage. Gains 3 Swiftness.",
+    "damage": 1
+},
+"flipside": {
+    "name": "Flipside",
+    "description": "Converts its negative stat changes into positive ones."
+},
+"self_cleaning": {
+    "name": "Self-Cleaning",
+    "description": "Removes its negative effects and gains 1 Health."
+},
+"jab_cross": {
+    "name": "Jab-Cross",
+    "description": "Deals 2 damage. Hits 2 times.",
+    "damage": 2
+},
+"hibernation": {
+    "name": "Hibernation",
+    "description": "Falls Asleep to regain 2 Health and gain 2 Armor."
+},
+"knuckle_punch": {
+    "name": "Knucle Punch",
+    "description": "Deals 2 damage. Gains 2 Armor.",
+    "damage": 2,
+    "charges": 2,
+    "maxCharges": 2
+},
+"primal_instinct": {
+    "name": "Primal Instinct",
+    "description": "Deals 2 damage. Can be used even while Asleep.",
+    "damage": 2
+},
+"defensive_stance": {
+    "name": "Defensive Stance",
+    "description": "Gains 1 Sturdy and 3 Swiftness, inflicts 1 Weakness to itself.",
+    "charges": 1,
+    "maxCharges": 1
+},
+"panic_flail": {
+    "name": "Panic Flail",
+    "description": "Deals 4 damage. Inflicts 4 Slowness and Unretreatable to itself for 1 turn.",
+    "damage": 4
+},
+"wind_down": {
+    "name": "Wind Down",
+    "description": "Regains 4 Health. Inflicts 3 Slowness to itself.",
+    "charges": 3,
+    "maxCharges": 3
+},
+"trap_tail": {
+    "name": "Trap Tail",
+    "description": "Deals 3 damage. Deals 3 extra damage if the target is faster.",
+    "damage": 3
+},
+"somersault": {
+    "name": "Somersault",
+    "description": "Deals 2 damage. Restores 1 Health to itself.",
+    "damage": 2
+},
+"organic_shell": {
+    "name": "Organic Shell",
+    "description": "Restores 4 Health to itself. Excess is converted to Armor.",
+    "charges": 1,
+    "maxCharges": 1
+},
+"all_hands_on_deck": {
+    "name": "All Hands On Deck",
+    "description": "Gains 1 Armor for each creature in your entire deck.",
+    "charges": 1,
+    "maxCharges": 1
+},
+"quick_dive": {
+    "name": "Quick Dive",
+    "description": "Restores 3 Health to it self.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"stimulants": {
+    "name": "Stimulants",
+    "description": "Gives 1 Strength to its team"
+},
+"big_peck": {
+    "name": "Big Peck",
+    "description": "Deals 3 damage.",
+    "damage": 3
+},
+"stagger": {
+    "name": "Stagger",
+    "description": "Deals 2 damage. Removes target's Armor and Sturdy right before striking.",
+    "damage": 2
+},
+"peck_peck": {
+    "name": "Peck-Peck",
+    "description": "Deals 1 damage. Hits 2 times.",
+    "damage": 1
+},
+"stone_beak": {
+    "name": "Stone Beak",
+    "description": "Deals 2 damage. Inflicts 1 Vulnerable to the target.",
+    "damage": 2
+},
+"buck": {
+    "name": "Buck",
+    "description": "Deals 3 damage. Inflicts 4 Torpidity to the target.",
+    "damage": 3,
+    "charges": 2,
+    "maxCharges": 2
+},
+"footwork": {
+    "name": "Footwork",
+    "description": "Gains as much Armor as this has Swiftness.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"gallop": {
+    "name": "Gallop",
+    "description": "Regains 1 Health. Gains 2 Swiftness.",
+    "charges": 5,
+    "maxCharges": 5
+},
+"rodeo": {
+    "name": "Rodeo",
+    "description": "Hits first. Gains 2 Armor and 2 Swiftness.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"group_cover": {
+    "name": "Group Cover",
+    "description": "Gives 3 Armor to adjacent allies.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"rally": {
+    "name": "Rally",
+    "description": "Gives 1 Armor and 2 Swiftness to its team.",
+    "charges": 4,
+    "maxCharges": 4
+},
+"barrier": {
+    "name": "Barrier",
+    "description": "Gives 3 Armor to the ally to its right."
+},
+"biosublimation": {
+    "name": "Biosublimation",
+    "description": "Deals 1 damage. If the target has Poison, gains 3 Armor.",
+    "damage": 1
+},
+"infected_lick": {
+    "name": "Infected Lick",
+    "description": "Restores 1 Health to itself. Inflicts 3 Poison to the target.",
+    "charges": 4,
+    "maxCharges": 4
+},
+"stall": {
+    "name": "Stall",
+    "description": "Regains 2 Health. Gains 1 Armor.",
+    "charges": 3,
+    "maxCharges": 3
+},
+"team_tactic": {
+    "name": "Team Tactic",
+    "description": "Deals 3 damage. When a team member uses a status move, increase this move's damage by 1.",
+    "damage": 3
+},
+"virulence": {
+    "name": "Virulence",
+    "description": "Inflicts 3 Poison and 1 Vulnerable to the target."
+},
+"nanostinger": {
+    "name": "Nanostinger",
+    "description": "Deals 2 damage. Inflicts Poison for each damage dealt.",
+    "damage": 2
+},
+"plagueburst": {
+    "name": "Plagueburst",
+    "description": "Deals 2 damage. Inflicts 2 Poison to creatures adjacent to the target.",
+    "damage": 2
+},
+"charge": {
+    "name": "Charge",
+    "description": "Deals 3 damage. Gains 1 Strength.",
+    "damage": 3
+},
+"tortoise_formation": {
+    "name": "Tortoise Formation",
+    "description": "Gives 2 Sturdy to it's team this turn only.",
+    "charges": 1,
+    "maxCharges": 1
+},
+"noble_sacrifice": {
+    "name": "Noble Sacrifice",
+    "description": "Dies to give 5 Sturdy to its team this turn only.",
+    "charges": 1,
+    "maxCharges": 2
+},
+"perfect_parry": {
+    "name": "Perfect Parry",
+    "description": "Hits first. Gains 5 Sturdy this turn only.",
+    "charges": 1,
+    "maxCharges": 1
+},
+"shaking_screech": {
+    "name": "Shaking Screech",
+    "description": "Inflicts 4 Torpidity and 1 Poison to all enemies.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"overdose": {
+    "name": "Overdose",
+    "description": "Inflicts 3 Torpidity and 3 Poison to the target."
+},
+"barricade": {
+    "name": "Barricade",
+    "description": "Gains 4 Armor.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"sprint": {
+    "name": "Sprint",
+    "description": "Gains 7 Swiftness for 3 turns."
+},
+"smash": {
+    "name": "Smash",
+    "description": "Deals 4 damage.",
+    "damage": 4
+},
+"swift_punch": {
+    "name": "Swift Punch",
+    "description": "Deals 2 damage. Hits first.",
+    "damage": 2
+},
+"noxious_fury": {
+    "name": "Noxious Fury",
+    "description": "Deals 10 damage. Usable only if the target has at least 2 Poison.",
+    "damage": "10"
+},
+"fatal_sting": {
+    "name": "Fatal Sting",
+    "description": "Inflicts 4 Poison to the target."
+},
+"trampling": {
+    "name": "Trampling",
+    "description": "Deals 5 damage.",
+    "damage": 5
+},
+"coil_up": {
+    "name": "Coil Up",
+    "description": "Gains 2 Armor. Amount increases by 2 at the end of each turn. Resets when used."
+},
+"sludge_projection": {
+    "name": "Sludge Projection",
+    "description": "Inflicts 4 Poison to the target."
+},
+"venom_charge": {
+    "name": "Venom Charge",
+    "description": "Inflicts 3 Poison. Amount inscreases at the end of the turn. Resets when used."
+},
+"toxi_chitin": {
+    "name": "Toxi Chitin",
+    "description": "Inflicts as much poison as this has Armor.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"choke_hold": {
+    "name": "Choke Hold",
+    "description": "Inflicts 5 Torpidity to the target."
+},
+"quick_nap": {
+    "name": "Quick Nap",
+    "description": "Falls Asleep to regain 3 Health."
+},
+"black_breath": {
+    "name": "Black Breath",
+    "description": "Inflicts 3 Poison to all enemies."
+},
+"death_path": {
+    "name": "Death Path",
+    "description": "Deals 5 damage.",
+    "damage": 5
+},
+"ancestral_force": {
+    "name": "Ancestral Force",
+    "description": "Deals 15 damage. Forgets this move after using it.",
+    "damage": 15
+},
+"heavy_assault": {
+    "name": "Heavy Assault",
+    "description": "Deals 4 damage. Hits last. Hits 2 times.",
+    "damage": 4
+},
+"power_wave": {
+    "name": "Power Wave",
+    "description": "Gives 2 Sturdy and Swift to its team this turn only.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"void_surge": {
+    "name": "Void Surge",
+    "description": "Doubles the negative effects of all enemies.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"swift_regrowth": {
+    "name": "Swift Regrowth",
+    "description": "Hits first. Gains 8 Armor.",
+    "charges": 1,
+    "maxCharges": 1
+},
+"great_barrier": {
+    "name": "Great Barrier",
+    "description": "Gives 4 Armor and 1 Weakness to its team.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"living_wall": {
+    "name": "Living Wall",
+    "description": "Gains 7 Armor.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"marrow_growth": {
+    "name": "Marrow Growth",
+    "description": "Gains 15 Armor. Can be used only when at 1 Health.",
+    "charges": 1,
+    "maxCharges": 1
+},
+"cement": {
+    "name": "Cement",
+    "description": "Gains 10 Armor and Unretreatable.",
+    "charges": 1,
+    "maxCharges": 1
+},
+"swarm_assault": {
+    "name": "Swarm Assault",
+    "description": "Deals 5 damage. Inflicts 3 Vulnerable to the target for 1 turn.",
+    "damage": 5
+},
+"parasitic_harvest": {
+    "name": "Parasitic Harvest",
+    "description": "Steals 1 Health from all enemies."
+},
+"wound_stab": {
+    "name": "Wound Stab",
+    "description": "Deals 3 damage.Targets all enemies that have Vulnerable.",
+    "damage": 3
+},
+"wreak_havoc": {
+    "name": "Wreak Havoc",
+    "description": "Inflicts 3 Vulnerable and 1 Weakness to all enemies for 2 turns."
+},
+"dismemberment": {
+    "name": "Dismemberment",
+    "description": "Deals 6 damage.",
+    "damage": 6
+},
+"grim_example": {
+    "name": "Grim Example",
+    "description": "Deals 5 damage. If this kills the target, inflicts 3 Weakness to all enemies for 3 turns.",
+    "damage": 5
+},
+"stalking": {
+    "name": "Stalking",
+    "description": "Deals 5 damage. Hits twice if the target has Weakness.",
+    "damage": 5
+},
+"fear_feast": {
+    "name": "Fear Feast",
+    "description": "Steals 2 Health from all enemies that have Weakness."
+},
+"heavy_slash": {
+    "name": "Heavy Slash",
+    "description": "Deals 8 damage. Hits last.",
+    "damage": 1
+},
+"terror": {
+    "name": "Terror",
+    "description": "Inflicts 3 Weakness and Unretreatable to the target for 3 turns.",
+    "charges": 3,
+    "maxCharges": 3
+},
+"self_devour": {
+    "name": "Self-Devour",
+    "description": "Deals 1 damage to itself, then it regenerates 1 Health. Repeats 3 times."
+},
+"blood_of_eternity": {
+    "name": "Blood of Eternity",
+    "description": "Restores 4 Health to its team.",
+    "charges": 2,
+    "maxCharges": 2
+},
+"kinetic_step": {
+    "name": "Kinetic Step",
+    "description": "Deals 4 damage. Gains 1 Swiftness. Amount increases by 1 after each use.",
+    "damage": 4
+},
+"deadly_claw": {
+    "name": "Deadly Claw",
+    "description": "Deals 6 damage.",
+    "damage": 6
+},
+"wild_sense": {
+    "name": "Wild Sense",
+    "description": "Deals 10 damage. Usable only if it has at least 6 Swiftness.",
+    "damage": 10
+},
+"supersonic_sweep": {
+    "name": "Supersonic Sweep",
+    "description": "Deals damage equal to its Swiftness to all enemies.",
+    "charges": 1,
+    "maxCharges": 1
+},
+"lighting_speed": {
+    "name": "Lightning Speed",
+    "description": "Deals 5 damage. Gains 5 Swiftness.",
+    "damage": 5
+},
+"tempo": {
+    "name": "Tempo",
+    "description": "Removes all its Swiftness. Regains 1 Health for each Swiftness removed."
+},
+"critical_hunt": {
+    "name": "Critical Hunt",
+    "description": "Deals 8 damage. Dies if this move doesn't kill.",
+    "damage": 8
+},
+"blood_ritual": {
+    "name": "Blood Ritual",
+    "description": "Deals 2 damage to itself. Gains 5 Strength."
+},
+"bloodlust": {
+    "name": "Bloodlust",
+    "description": "Deals 5 damage. Hits all lanes if a creature died this turn.",
+    "damage": 5
+},
+"bloodbath": {
+    "name": "Bloodbath",
+    "description": "Deals 5 damage. Deals 5 extra damage for each creature that died this turn",
+    "damage": 5
+}
+}

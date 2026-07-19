@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>DeckTamer Battle Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>DeckTamer Battle Manager</h1>
+
+    <div id="app">
+
+    <div id="player1Deck">
+
+    <h2>Player 1 Deck</h2>
+
+    <input
+    id="player1Search"
+    oninput="updateSearchResults(1)"
+        type="text"
+        placeholder="Search creature..."
+    >
+
+    <div id="player1SearchResults"></div>
+
+    <div id="player1DeckCards"></div>
+
+</div>
+
+    <div id="board"></div>
+
+    <div id="player2Deck">
+
+    <h2>Player 2 Deck</h2>
+
+    <input
+    id="player2Search"
+    oninput="updateSearchResults(2)"
+        type="text"
+        placeholder="Search creature..."
+    >
+
+    <div id="player2SearchResults"></div>
+
+    <div id="player2DeckCards"></div>
+
+</div>
+
+</div>
+<div id="controls">
+
+    <button onclick="endTurn()">
+        End Turn
+    </button>
+
+</div>
+
+<div id="inspector">
+
+    <h2>Inspector</h2>
+
+    <div id="inspectorContent">
+
+        No card selected.
+
+    </div>
+
+</div>
+
+
+    <script src="js/database.js"></script>
+<script src="js/match.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>

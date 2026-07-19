@@ -1,0 +1,952 @@
+{
+    "inspired": {
+    "name": "Inspired",
+    "description": "After a team member uses a status move, gain 1 Strength and 1 Swiftness."
+},
+
+"sadistic": {
+    "name": "Sadistic",
+    "description": "For each negative effect an enemy gets, gains that much Strength for 1 turn."
+},
+
+"myostatin": {
+    "name": "Myostatin",
+    "description": "Always has 1 Strength."
+},
+
+"pheromones": {
+    "name": "Pheromones",
+    "description": "Adjacent creatures have 1 Strength."
+},
+
+"determination": {
+    "name": "Determination",
+    "description": "Has 2 Strength while at full Health."
+},
+
+"underdog": {
+    "name": "Underdog",
+    "description": "Has 1 Strength for every extra Danger Level the opposing enemy has compared to this creature."
+},
+
+"team_spirit": {
+    "name": "Team Spirit",
+    "description": "When an ally is placed, gain 1 Strength."
+},
+
+"hot_temper": {
+    "name": "Hot Temper",
+    "description": "When attacked, gain 1 Strength."
+},
+
+"cold_blooded": {
+    "name": "Cold-Blooded",
+    "description": "For each Slowness this has, it also has 1 Strength."
+},
+
+"fast_predator": {
+    "name": "Fast Predator",
+    "description": "For every Swiftness this has, it also has Strength."
+},
+
+"fume_sniffer": {
+    "name": "Fume Sniffer",
+    "description": "Has 1 Strength and 1 Swiftness for each creature that has Poison, including itself."
+},
+
+"hot_blooded": {
+    "name": "Hot-Blooded",
+    "description": "When placed, gains 2 Strength for 1 turn."
+},
+
+"galvanizing": {
+    "name": "Galvanizing",
+    "description": "When placed and on retreat, gives 1 Strength to its allies for 1 turn."
+},
+
+"apex_predator": {
+    "name": "Apex Predator",
+    "description": "On kill, gain 1 Swiftness and 1 Strength."
+},
+
+"rat_king": {
+    "name": "Rat King",
+    "description": "Allies of Danger Level 1 have 4 Strength."
+},
+
+"vengeful": {
+    "name": "Vengeful",
+    "description": "When an ally dies, gains 2 Strength."
+},
+
+"bloodthirsty": {
+    "name": "Bloodthirsty",
+    "description": "On kill, gain 2 Strength."
+},
+
+"adrenaline": {
+    "name": "Adrenaline",
+    "description": "Has 3 Strength when at 2 Health or less."
+},
+
+"ever_growing": {
+    "name": "Ever-Growing",
+    "description": "At the end of each turn, gains 1 Strength."
+},
+
+"deimatic": {
+    "name": "Deimatic",
+    "description": "When placed, inflicts 2 Weakness to the opposing enemy for 1 turn."
+},
+
+"menacing_aura": {
+    "name": "Menacing Aura",
+    "description": "The opposing enemy has 1 Weakness."
+},
+
+"crippling_disease": {
+    "name": "Crippling Disease",
+    "description": "If the opposing enemy has Poison, it also has 2 Weakness."
+},
+
+"power_drain": {
+    "name": "Power Drain",
+    "description": "Enemies with Torpidity have 1 Weakness."
+},
+
+"soul_crushing": {
+    "name": "Soul Crushing",
+    "description": "Enemies with 0 Speed have 3 Weakness."
+},
+
+"dreadful": {
+    "name": "Dreadful",
+    "description": "At the end of each turn, inflicts 1 Weakness to the opposing enemy."
+},
+
+"frightening": {
+    "name": "Frightening",
+    "description": "When placed, inflicts 1 Weakness for 1 turn to all enemies."
+},
+
+"tail_shelter": {
+    "name": "Tail Shelter",
+    "description": "Has 2 Sturdy. Disappears after using a move."
+},
+
+"snow_cover": {
+    "name": "Snow Cover",
+    "description": "Has 2 Sturdy if the opposing enemy has Slowness."
+},
+
+"passive_aggressive": {
+    "name": "Passive Aggressive",
+    "description": "Every turn, alternate between having 2 Swiftness and 1 Sturdy."
+},
+
+"warden": {
+    "name": "Warden",
+    "description": "Adjacent creatures have 1 Sturdy."
+},
+
+"resilience": {
+    "name": "Resilience",
+    "description": "Always has 1 Sturdy."
+},
+
+"hard_headed": {
+    "name": "Hard-Headed",
+    "description": "When placed, gains 2 Sturdy for 1 turn."
+},
+
+"nyctinasty": {
+    "name": "Nyctinasty",
+    "description": "While Asleep, has 2 Sturdy."
+},
+
+"lucid": {
+    "name": "Lucid",
+    "description": "Has 2 Sturdy if the opposing enemy has Torpidity."
+},
+
+"force_field": {
+    "name": "Force Field",
+    "description": "When placed, gives 1 Sturdy to its team for 1 turn."
+},
+
+"lantern": {
+    "name": "Lantern",
+    "description": "The opposing enemy has 1 Vulnerable."
+},
+
+"chandelier": {
+    "name": "Chandelier",
+    "description": "The opposing enemy has 2 Vulnerable."
+},
+
+"glow_mark": {
+    "name": "Glow Mark",
+    "description": "After this attacks, inflict 1 Vulnerable to the target."
+},
+
+"tracker": {
+    "name": "Tracker",
+    "description": "When placed, inflicts 1 Vulnerable to the opposing enemy."
+},
+
+"ambush_predator": {
+    "name": "Ambush Predator",
+    "description": "Enemies with Sleep have 3 Vulnerable."
+},
+
+"nocturnal_sun": {
+    "name": "Nocturnal Sun",
+    "description": "All enemies have 1 Vulnerable."
+},
+
+"icebreaker": {
+    "name": "Icebreaker",
+    "description": "Enemies with Slowness have that much Vulnerable."
+},
+
+"blinding_radiance": {
+    "name": "Blinding Radiance",
+    "description": "When an enemy takes damage, inflicts 1 Vulnerable to it for 1 turn."
+},
+
+"assailant": {
+    "name": "Assailant",
+    "description": "When placed, inflicts 1 damage and 1 Vulnerable to the opposing enemy."
+},
+
+"harsh_frequency": {
+    "name": "Harsh Frequency",
+    "description": "Enemies with Detected have that much Vulnerable."
+},
+"rush": {
+    "name": "Rush",
+    "description": "When placed, gains 3 Swiftness for 1 turn."
+},
+
+"turbo": {
+    "name": "Turbo",
+    "description": "At the end of the turn, gain 1 Swiftness."
+},
+
+"positive_feedback": {
+    "name": "Positive Feedback",
+    "description": "When an ally gets healed, gains 1 Swiftness."
+},
+
+"guidelight": {
+    "name": "Guidelight",
+    "description": "Adjacent creatures have 4 Swiftness."
+},
+
+"breeze": {
+    "name": "Breeze",
+    "description": "Adjacent creatures have 2 Swiftness."
+},
+
+"frosty": {
+    "name": "Frosty",
+    "description": "The opposing enemy has 2 Slowness."
+},
+
+"ice_wall": {
+    "name": "Ice Wall",
+    "description": "When the opposing enemy receives Slowness, gains that much Armor."
+},
+
+"subzero": {
+    "name": "Subzero",
+    "description": "All enemies have 1 Slowness."
+},
+
+"frigid": {
+    "name": "Frigid",
+    "description": "Deals double damage to creatures that have Slowness."
+},
+
+"sticky_goo": {
+    "name": "Sticky Goo",
+    "description": "When an enemy takes damage, inflicts 1 Slowness to it."
+},
+
+"strength_sucker": {
+    "name": "Strength Sucker",
+    "description": "When dealing damage, inflicts 2 Slowness to the victim."
+},
+
+"reflexive_sting": {
+    "name": "Reflexive Sting",
+    "description": "When an enemy receives Slowness, inflict 2 Poison to it."
+},
+
+"inkstain": {
+    "name": "Inkstain",
+    "description": "When placed, inflicts 1 Sluggish to the opposing enemy for 3 turns."
+},
+
+"ink_trap": {
+    "name": "Ink Trap",
+    "description": "When placed, inflicts Sluggish to all enemies for 3 turns."
+},
+
+"intrepid": {
+    "name": "Intrepid",
+    "description": "Has Swift if there's an empty ally spot."
+},
+
+"agile": {
+    "name": "Agile",
+    "description": "When placed, gain 1 Swift for 1 turn."
+},
+
+"wind_of_change": {
+    "name": "Wind of Change",
+    "description": "The slowest ally on the board has Swift. If two allies are tied, they both gain Swift."
+},
+
+"warcry": {
+    "name": "Warcry",
+    "description": "When placed, gives Swift to its team for 1 turn."
+},
+
+"sleep_sucker": {
+    "name": "Sleep Sucker",
+    "description": "Regains 2 Health when dealing damage to a sleeping creature."
+},
+
+"nightmare_fuel": {
+    "name": "Nightmare Fuel",
+    "description": "At the end of each turn, steals 2 Health from other sleeping creatures."
+},
+
+"sleeping_spores": {
+    "name": "Sleeping Spores",
+    "description": "When an enemy takes damage, inflicts 1 Torpidity to it."
+},
+
+"sleep_trap": {
+    "name": "Sleep Trap",
+    "description": "When placed, if the opposing enemy is slower, puts it to Sleep."
+},
+
+"restful_sleep": {
+    "name": "Restful Sleep",
+    "description": "Upon waking up, regains 2 Health and removes its negative effects."
+},
+
+"narco_crystals": {
+    "name": "Narco-Crystals",
+    "description": "Upon losing Armor, inflicts 1 Torpidity to all enemies."
+},
+
+"quick_fists": {
+    "name": "Quick Fists",
+    "description": "When placed, inflicts 1 Torpidity to all enemies."
+},
+
+"delicious": {
+    "name": "Delicious",
+    "description": "On death, restores 2 Health to allies."
+},
+
+"iron_blooded": {
+    "name": "Iron-Blooded",
+    "description": "When placed, regains 1 Health."
+},
+
+"nap": {
+    "name": "Nap",
+    "description": "On retreat, regains 4 Health."
+},
+
+"calcification": {
+    "name": "Calcification",
+    "description": "Converts its excess healing into Armor."
+},
+
+"vampirism": {
+    "name": "Vampirism",
+    "description": "Regains 1 Health when dealing damage."
+},
+
+"stamina": {
+    "name": "Stamina",
+    "description": "When an ally is placed, heal 1 Health."
+},
+
+"venom_cure": {
+    "name": "Venom Cure",
+    "description": "Poison heals this creature instead of damaging it."
+},
+
+"crafty": {
+    "name": "Crafty",
+    "description": "When an ally uses a status move, it regains 1 Health."
+},
+
+"optimistic": {
+    "name": "Optimistic",
+    "description": "After using a move that deals 1 damage or less, heals 1 Health."
+},
+
+"regeneration": {
+    "name": "Regeneration",
+    "description": "At the end of the turn, heal 1 Health."
+},
+
+"pain_harvester": {
+    "name": "Pain Harvester",
+    "description": "When this survives damage, regains 1 Health."
+},
+
+"undying": {
+    "name": "Undying",
+    "description": "When the creature dies, resummons itself without this talent and with half its max Health rounded up."
+},
+
+"cowardly": {
+    "name": "Cowardly",
+    "description": "At the end of its turn, if it has 1 Health left, retreats."
+},
+
+"rocky_shell": {
+    "name": "Rocky Shell",
+    "description": "Cannot die in one hit unless it only has 1 Health left. Once per battle."
+},
+
+"harmony": {
+    "name": "Harmony",
+    "description": "Has Speed equal to Health."
+},
+
+"leech_king": {
+    "name": "Leech King",
+    "description": "When an ally deals damage, it regains 1 Health."
+},
+
+"everlasting": {
+    "name": "Everlasting",
+    "description": "Can be healed beyond its max Health, up to 20 Health."
+},
+
+"impregnable_shell": {
+    "name": "Impregnable Shell",
+    "description": "Upon receiving a negative effect, gains Protection."
+},
+
+"defensive": {
+    "name": "Defensive",
+    "description": "When placed, gain 1 Protection."
+},
+
+"fortress": {
+    "name": "Fortress",
+    "description": "After using a status move, gains Protection."
+},
+
+"spiky_scales": {
+    "name": "Spiky Scales",
+    "description": "When attacked, deals damage equal to this creature's Armor to the attacker."
+},
+
+"keratin": {
+    "name": "Keratin",
+    "description": "When placed, gain 1 Armor."
+},
+
+"carapace": {
+    "name": "Carapace",
+    "description": "When placed, gain 2 Armor."
+},
+
+"eternal_shield": {
+    "name": "Eternal Shield",
+    "description": "Keeps up to 20 Armor on retreat and between battles."
+},
+
+"calluses": {
+    "name": "Calluses",
+    "description": "At the end of each turn, gains 1 Armor."
+},
+
+"noxious_beast": {
+    "name": "Noxious Beast",
+    "description": "When a creature receives Poison, gain that much Armor."
+},
+
+"endless_shell": {
+    "name": "Endless Shell",
+    "description": "When an ally is placed, give it 2 Armor and gains 2 Armor."
+},
+"venom_spray": {
+    "name": "Venom Spray",
+    "description": "When placed, inflict 2 Poison to the opposing enemy."
+},
+
+"toxic_coil": {
+    "name": "Toxic Coil",
+    "description": "At the end of each turn, inflicts 1 Poison to the opposing enemy."
+},
+
+"venomous": {
+    "name": "Venomous",
+    "description": "After this attacks, inflicts 1 Poison to the target."
+},
+
+"poisoner": {
+    "name": "Poisoner",
+    "description": "When a creature receives Poison, gain that much Strength for 1 turn."
+},
+
+"quick_fangs": {
+    "name": "Quick Fangs",
+    "description": "When placed and on retreat, inflicts 1 Poison to the opposing enemy."
+},
+
+"toxic_aura": {
+    "name": "Toxic Aura",
+    "description": "When a team member deals damage, inflicts 1 Poison to the victim."
+},
+
+"toxic_stare": {
+    "name": "Toxic Stare",
+    "description": "When placed, inflict 1 Poison to the opposing enemy."
+},
+
+"enzymes": {
+    "name": "Enzymes",
+    "description": "Immune to Poison."
+},
+
+"toxic_thorns": {
+    "name": "Toxic Thorns",
+    "description": "When attacked, inflicts 1 Poison to the attacker."
+},
+
+"caustic": {
+    "name": "Caustic",
+    "description": "Deals double damage to creatures that have Poison."
+},
+
+"biohazard": {
+    "name": "Biohazard",
+    "description": "On death, inflicts 1 Poison to the opposing enemy."
+},
+
+"pestiferous": {
+    "name": "Pestiferous",
+    "description": "The opposing enemy's Poison increases at the end of each turn."
+},
+
+"snowball": {
+    "name": "Snowball",
+    "description": "When placed, inflict 1 Slowness to all enemies."
+},
+
+"ambusher": {
+    "name": "Ambusher",
+    "description": "When placed, deal 1 damage to the opposing enemy."
+},
+
+"curing_bristles": {
+    "name": "Curing Bristles",
+    "description": "When placed, removes negative effects from all allies."
+},
+
+"charismatic": {
+    "name": "Charismatic",
+    "description": "On placed and on retreat, draws 1 card."
+},
+
+"ambush_fist": {
+    "name": "Ambush Fist",
+    "description": "When placed, inflicts 2 damage and 1 Torpidity to the opposing enemy."
+},
+
+"detection": {
+    "name": "Detection",
+    "description": "When placed, and at the end of the turn, inflicts 1 Detected to the opposing enemy."
+},
+
+"whistly_leaves": {
+    "name": "Whistly Leaves",
+    "description": "When placed, adds Leaf Whistle to your inventory once per battle."
+},
+
+"gregarious": {
+    "name": "Gregarious",
+    "description": "On retreat, gives a copy of its positive effects to all allies."
+},
+
+"life_drinker": {
+    "name": "Life Drinker",
+    "description": "On kill, restore 1 use to its limited abilities."
+},
+
+"pollinator": {
+    "name": "Pollinator",
+    "description": "On death, adds Honey into your inventory."
+},
+
+"rock_collector": {
+    "name": "Rock Collector",
+    "description": "On death, adds 1 Rock to your inventory."
+},
+
+"reactive": {
+    "name": "Reactive",
+    "description": "When a team member uses a status move, deal 1 damage to all enemies."
+},
+
+"zappy": {
+    "name": "Zappy",
+    "description": "After using a status move, deals 1 damage to the opposing enemy."
+},
+
+"test_subject": {
+    "name": "Test Subject",
+    "description": "Doesn't lose its abilities that get extracted by syringes."
+},
+
+"hypersensitive": {
+    "name": "Hypersensitive",
+    "description": "Doubles all status effects on this creature."
+},
+
+"assimilator": {
+    "name": "Assimilator",
+    "description": "When placed, gains the opposing enemy's talents. Resets on retreat."
+},
+
+"inverted_world": {
+    "name": "Inverted World",
+    "description": "Reverses the attack orders of creatures within each lane."
+},
+
+"sneaky": {
+    "name": "Sneaky",
+    "description": "Can be retreated without using the whistle."
+},
+
+"radioactive": {
+    "name": "Radioactive",
+    "description": "Mutated moves deal 2 extra damage."
+},
+
+"metabolizer": {
+    "name": "Metabolizer",
+    "description": "After eating Fish, gains a random mutation."
+},
+
+"eerie_screech": {
+    "name": "Eerie Screech",
+    "description": "When placed, removes positive stat changes from all enemies."
+},
+
+"thick_hide": {
+    "name": "Thick Hide",
+    "description": "When about to take 4-6 damage at once, reduce it to 3."
+},
+
+"devils_advocate": {
+    "name": "Devil's Advocate",
+    "description": "Inverts its stat changes."
+},
+
+"fortitude": {
+    "name": "Fortitude",
+    "description": "Immune to negative effects."
+},
+
+"imitator": {
+    "name": "Imitator",
+    "description": "When placed, gain the moves of the ally to its left. Resets on retreat."
+},
+
+"unstable_genome": {
+    "name": "Unstable Genome",
+    "description": "At the start of every other battle, gain a random mutation."
+},
+
+"deft": {
+    "name": "Deft",
+    "description": "Hits first with status moves."
+},
+
+"peripheral_vision": {
+    "name": "Peripheral Vision",
+    "description": "Damage coming from other lanes is halved, rounded down."
+},
+
+"reinvigorating": {
+    "name": "Reinvigorating",
+    "description": "When placed, restore 1 use to the limited moves of all allies. Once per battle."
+},
+
+"opportunist": {
+    "name": "Opportunist",
+    "description": "Deals 3 extra damage to creatures that have negative effects."
+},
+
+"peer_learning": {
+    "name": "Peer Learning",
+    "description": "When an ally gains an effect, gains it too."
+},
+
+"bleeding": {
+    "name": "Bleeding",
+    "description": "When damaged, adds Blood to your inventory. 5 uses per battle."
+},
+
+"sonar": {
+    "name": "Sonar",
+    "description": "The opposing enemy's talents are disabled for 5 turns this battle."
+},
+
+"mystic_presence": {
+    "name": "Mystic Presence",
+    "description": "Doubles all stat changes of all creatures."
+},
+
+"omnipresence": {
+    "name": "Omnipresence",
+    "description": "When an ally dies, a Tentacle replaces it at the end of the turn. When an ally retreats, it gets replaced immediately."
+},
+
+"resentful": {
+    "name": "Resentful",
+    "description": "Upon receiving a negative effect, also inflicts it to the opposing enemy."
+},
+
+"the_world": {
+    "name": "The World",
+    "description": "Temporary effects don't count down at the end of the turn for everyone."
+},
+
+"oneiric": {
+    "name": "Oneiric",
+    "description": "Has a random move that changes each turn."
+},
+
+"hyperstimulation": {
+    "name": "Hyperstimulation",
+    "description": "When placed, gains all moves of all creatures of Danger Level 4 or lower."
+},
+
+"abyss_cure": {
+    "name": "Abyss Cure",
+    "description": "Adjacent creatures are immune to negative effects."
+},
+
+"withering": {
+    "name": "Withering",
+    "description": "When placed, deals as much damage to the opposing enemy as it has negative effects."
+},
+
+"ethereal": {
+    "name": "Ethereal",
+    "description": "On retreat, leaves behind a copy of itself. Once per battle."
+},
+
+"berserk": {
+    "name": "Berserk",
+    "description": "Takes and deals double damage."
+},
+
+"ripple_effect": {
+    "name": "Ripple Effect",
+    "description": "Team members deal 3 more damage when they hit targets in other lanes."
+},
+
+"genotoxic": {
+    "name": "Genotoxic",
+    "description": "When placed, evolves its allies for the rest of the battle."
+},
+
+"first_responder": {
+    "name": "First Responder",
+    "description": "Starts the battle in your hand."
+},
+
+"gluttosis": {
+    "name": "Gluttosis",
+    "description": "After eating a food, gains 1 max Health and 1 Speed forever."
+},
+
+"tremor_sense": {
+    "name": "Tremor Sense",
+    "description": "When an enemy takes damage, inflicts Detected to it."
+},
+"hardening_spores": {
+    "name": "Hardening Spores",
+    "description": "On death, gives 1 Sturdy to its team."
+},
+"heavy_hitter": {
+    "name": "Heavy Hitter",
+    "description": "For each Sturdy this has, it also has 1 Strength."
+},
+"free_spirit": {
+    "name": "Free Spirit",
+    "description": "Has 1 Strength and 1 Swiftness for each empty ally slot."
+},
+"defiant": {
+    "name": "Defiant",
+    "description": "Has 2 Strength, but only has one selectable move each turn. Choosen randomly."
+},
+"iron_will": {
+    "name": "Iron Will",
+    "description": "If it has 1 Health left after surviving damage, heals back to full Health. (once per battle)."
+},
+"resolute": {
+    "name": "Resolute",
+    "description": "Has Swift when it has 1 Health left."
+},
+"zenkai_boost": {
+    "name": "Zenkai Boost",
+    "description": "If healed while at 1 Health, gains 1 Strength and 1 Swiftness for each Health recovered."
+},
+"disease_hunter": {
+    "name": "Disease Hunter",
+    "description": "When an enemy recieves Poison, gains 2 Swiftness."
+},
+"lithophagous": {
+    "name": "Lithophagous",
+    "description": "When a team member gains Armor, gains 1 Strength for 3 turns."
+},
+"manner_bee": {
+    "name": "Manner Bee",
+    "description": "After consuming Honey regains 1 Health and gains 3 Swiftness."
+},
+"eusocial": {
+    "name": "Eusocial",
+    "description": "When an ally gets healed, gains 1 Strength for 1 turn."
+},
+"grazer": {
+    "name": "Grazer",
+    "description": "After consuming Medicinal Herb, regains 2 additional Health."
+},
+"empathy": {
+    "name": "Empathy",
+    "description": "When an ally is retreated, regains 1 Health."
+},
+"cryo_sleep": {
+    "name": "Cryo-Sleep",
+    "description": "When placed, falls Asleep to gain 3 Armor."
+},
+"kickstart": {
+    "name": "Kickstart",
+    "description": "When placed, gains 1 Sturdy and 1 Swiftness for 1 turn."
+},
+"fear_reflex": {
+    "name": "Fear Reflex",
+    "description": "For each Vulnerable it has, it also has Strength."
+},
+"scavenger": {
+    "name": "Scavenger",
+    "description": "After 5 creatures die, finds an item to add to your inventory!"
+},
+"sclerocytes": {
+    "name": "Sclerocytes",
+    "description": "When healed, gives 1 Armor to adjacent creatures."
+},
+"gourmet": {
+    "name": "Gourmet",
+    "description": "On kill, regains 1 Health."
+},
+"bug_eater": {
+    "name": "Bug Eater",
+    "description": "Has 4 Swiftness if the opposing enemy has 2 Health or less."
+},
+"runner": {
+    "name": "Runner",
+    "description": "When placed, gains 3 Swiftness for 2 turns."
+},
+"bulwark": {
+    "name": "Bulwark",
+    "description": "When a team member gains Armor, it gains an extra one."
+},
+"scale_shed": {
+    "name": "Scale Shed",
+    "description": "When placed and on death, gives 1 armor to its allies."
+},
+"leech_venom": {
+    "name": "Leech Venom",
+    "description": "When Poison is inflicted, regains 1 Health."
+},
+"strategic_shield": {
+    "name": "Strategic Shield",
+    "description": "After using a status move, gains 2 Armor"
+},
+"buboes": {
+    "name": "Buboes",
+    "description": "After using a status move, inflicts 2 poison to the opposing enemy"
+},
+"predatory_toxin": {
+    "name": "Predatory Toxin",
+    "description": "Poison deals 1 extra damage (for everyone)."
+},
+"hidden_stinger": {
+    "name": "Hidden Stinger",
+    "description": "When placed, inflicts 1 Poison to all enemies."
+},
+"defender": {
+    "name": "Defender",
+    "description": "The ally with least Health has 1 Sturdy."
+},
+"bodyguard": {
+    "name": "Bodyguard",
+    "description": "When placed, gives 2 Sturdy for 1 turn to the ally to its left."
+},
+"sleepwalker": {
+    "name": "Sleepwaler",
+    "description": "Can use status moves even while Asleep"
+},
+"slippery": {
+    "name": "Slippery",
+    "description": "Has 3 Swiftness if it has a negative effect."
+},
+"avenger": {
+    "name": "Avenger",
+    "description": "When anally dies, gains Swift for 4 turns."
+},
+"scale_surge": {
+    "name": "Scale Surge",
+    "description": "On kill, gains 3 Armor."
+},
+"venom_haste": {
+    "name": "Venom Haste",
+    "description": "Has 5 Swiftness if the opposing enemy has Poison."
+},
+"hauting_presence": {
+    "name": "Haunting Presence",
+    "description": "When placed, deals 1 damage to all enemies."
+},
+"energivore": {
+    "name": "Energivore",
+    "description": "When dealing damage, inflicts 1 Slowness to the victim and gains 1 Swiftness."
+},
+"soft_body": {
+    "name": "Soft Body",
+    "description": "Has 4 Swiftness if it doesn't have Armor."
+},
+"hive_guard": {
+    "name": "Hive-Guard",
+    "description": "Imune to Vulnerable."
+},
+"necrophagous": {
+    "name": "Necrophagous",
+    "description": "When a creature dies, regains 2 Health."
+},
+"protective_circle": {
+    "name": "Protective Circle",
+    "description": "When a team member survives damage, deals 2 damage to the team member's opposing enemy."
+},
+"hyperspeed": {
+    "name": "Hyperspeed",
+    "description": "At the end of each turn, gains 2 Swiftness"
+}
+}

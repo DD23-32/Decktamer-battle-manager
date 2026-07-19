@@ -1,0 +1,2377 @@
+[
+    {
+    "id": 1,
+    "name": "Abyss Lotus",
+
+    "hp": 4,
+    "speed": 0,
+
+    "rarity": "Minor",
+
+    "talent": "pheromones",
+
+    "moves": [
+        "bloom",
+        "sticky_spores"
+    ]
+},
+    {
+        "id": 2,
+        "name": "Abyssal Great Elk",
+
+        "hp": 7,
+        "speed": 2,
+
+        "rarity": "Lethal",
+
+        "talent": null,
+
+        "moves": [
+            "double_kick",
+            "anesthetic_gas",
+            "earthquake"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Agaric Frog",
+
+        "hp": 4,
+        "speed": 3,
+
+        "rarity": "Minor",
+
+        "talent": "poisoner",
+
+        "moves": [
+            "toxic_lick",
+            "toxic_fart"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Alpino",
+
+        "hp": 4,
+        "speed": 4,
+
+        "rarity": "Moderate",
+
+        "talent": null,
+
+        "moves": [
+            "dual_stab",
+            "swift_bite"
+        ]
+    },
+    {
+    "id": 5,
+    "name": "Amethyst Ant",
+
+    "hp": 3,
+    "speed": 6,
+
+    "rarity": "Minor",
+
+    "talent": "sleep_sucker",
+
+    "moves": [
+        "bite",
+        "tranq_bite"
+    ]
+},
+{
+    "id": 6,
+    "name": "Anemonis",
+
+    "hp": 3,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "hardening_spores",
+
+    "moves": [
+        "retraction",
+        "bonk"
+    ]
+},
+{
+    "id": 7,
+    "name": "Aspiceros",
+
+    "hp": 7,
+    "speed": 2,
+
+    "rarity": "Lethal",
+
+    "talent": null,
+
+    "moves": [
+        "body_slam",
+        "shells_up",
+        "ironhead"
+    ]
+},
+{
+    "id": 8,
+    "name": "Batfish",
+
+    "hp": 3,
+    "speed": 5,
+
+    "rarity": "Minor",
+
+    "talent": "vampirism",
+
+    "moves": [
+        "hydro_slap",
+        "furious_claws"
+    ]
+},
+{
+    "id": 9,
+    "name": "Beaver Monkey",
+
+    "hp": 3,
+    "speed": 5,
+
+    "rarity": "Minor",
+
+    "talent": "hot_temper",
+
+    "moves": [
+        "branch_drop",
+        "swift_scratch"
+    ]
+},
+{
+    "id": 10,
+    "name": "Bell Rat",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "keratin",
+
+    "moves": [
+        "hammer_tail",
+        "bell_gong"
+    ]
+},
+{
+    "id": 11,
+    "name": "Black Mermaid",
+
+    "hp": 5,
+    "speed": 4,
+
+    "rarity": "Unthinkable",
+
+    "talent": "ambush_predator",
+
+    "moves": [
+        "obliteration",
+        "night_terror"
+    ]
+},
+{
+    "id": 12,
+    "name": "Bloatfly",
+
+    "hp": 3,
+    "speed": 6,
+
+    "rarity": "Moderate",
+
+    "talent": null,
+
+    "moves": [
+        "sting",
+        "adrenaline_shot"
+    ]
+},
+{
+    "id": 13,
+    "name": "Blood Grub",
+
+    "hp": 4,
+    "speed": 3,
+
+    "rarity": "Minor",
+
+    "talent": "iron_blooded",
+
+    "moves": [
+        "bite",
+        "leech_bite"
+    ]
+},
+{
+    "id": 14,
+    "name": "Boulder Crab",
+
+    "hp": 3,
+    "speed": 1,
+
+    "rarity": "Minor",
+
+    "talent": "rocky_shell",
+
+    "moves": [
+        "stunning_blow"
+    ]
+},
+{
+    "id": 15,
+    "name": "Brown Marter",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": null,
+
+    "moves": [
+        "bite",
+        "controlled_kick",
+        "swift_paw"
+    ]
+},
+{
+    "id": 16,
+    "name": "Bubonic Dragon Olm",
+
+    "hp": 6,
+    "speed": 5,
+
+    "rarity": "Lethal",
+
+    "talent": "buboes",
+
+    "moves": [
+        "team_tactic",
+        "stall"
+    ]
+},
+{
+    "id": 17,
+    "name": "Buffalion",
+
+    "hp": 5,
+    "speed": 5,
+
+    "rarity": "Lethal",
+
+    "talent": "toxic_thorns",
+
+    "moves": [
+        "stinger_charge",
+        "biotoxic_swipe"
+    ]
+},
+{
+    "id": 18,
+    "name": "Bulbfish",
+
+    "hp": 5,
+    "speed": 3,
+
+    "rarity": "Moderate",
+
+    "talent": "agile",
+
+    "moves": [
+        "eggplosion",
+        "last_resort"
+    ]
+},
+{
+    "id": 19,
+    "name": "Bull Weevil",
+
+    "hp": 4,
+    "speed": 3,
+
+    "rarity": "Minor",
+
+    "talent": "turbo",
+
+    "moves": [
+        "acid_spray",
+        "exo_gnaw"
+    ]
+},
+{
+    "id": 20,
+    "name": "Candy Ram",
+
+    "hp": 4,
+    "speed": 6,
+
+    "rarity": "Minor",
+
+    "talent": "delicious",
+
+    "moves": [
+        "meek_kick",
+        "distraction"
+    ]
+},
+{
+    "id": 21,
+    "name": "Carnitrap",
+
+    "hp": 6,
+    "speed": 4,
+
+    "rarity": "Lethal",
+
+    "talent": "nyctinasty",
+
+    "moves": [
+        "soil_absorption",
+        "laceration",
+        "razorpetal"
+    ]
+},
+{
+    "id": 22,
+    "name": "Cereus Regia",
+
+    "hp": 5,
+    "speed": 0,
+
+    "rarity": "Moderate",
+
+    "talent": null,
+
+    "moves": [
+        "melody",
+        "sugary_sap"
+    ]
+},
+{
+    "id": 23,
+    "name": "Chasm Horror",
+
+    "hp": 8,
+    "speed": 6,
+
+    "rarity": "Unthinkable",
+
+    "talent": "quick_fists",
+
+    "moves": [
+        "brawl",
+        "knock_out"
+    ]
+},
+{
+    "id": 24,
+    "name": "Chichuya",
+
+    "hp": 5,
+    "speed": 1,
+
+    "rarity": "Minor",
+
+    "talent": "determination",
+
+    "moves": [
+        "bite",
+        "swift_scratch"
+    ]
+},
+{
+    "id": 25,
+    "name": "Cognivil",
+
+    "hp": 7,
+    "speed": 1,
+
+    "rarity": "Lethal",
+
+    "talent": "peer_learning",
+
+    "moves": [
+        "bash",
+        "absorb"
+    ]
+},
+{
+    "id": 26,
+    "name": "Coocoo",
+
+    "hp": 7,
+    "speed": 3,
+
+    "rarity": "Unthinkable",
+
+    "talent": "nightmare_fuel",
+
+    "moves": [
+        "concussion",
+        "nocturnal_demon"
+    ]
+},
+{
+    "id": 27,
+    "name": "Crazoar",
+
+    "hp": 5,
+    "speed": 4,
+
+    "rarity": "Lethal",
+
+    "talent": "predatory_toxin",
+
+    "moves": [
+        "nanostinger",
+        "plagueburst"
+    ]
+},
+{
+    "id": 28,
+    "name": "Crookpoach",
+
+    "hp": 6,
+    "speed": 5,
+
+    "rarity": "Lethal",
+
+    "talent": "power_drain",
+
+    "moves": [
+        "narco_lick",
+        "sleeping_shot"
+    ]
+},
+{
+    "id": 29,
+    "name": "Crystalon",
+
+    "hp": 4,
+    "speed": 6,
+
+    "rarity": "Lethal",
+
+    "talent": "galvanizing",
+
+    "moves": [
+        "body_slam",
+        "crystal_surge"
+    ]
+},
+{
+    "id": 30,
+    "name": "Dipteranae",
+
+    "hp": 6,
+    "speed": 6,
+
+    "rarity": "Unthinkable",
+
+    "talent": "caustic",
+
+    "moves": [
+        "black_breath",
+        "vilespine"
+    ]
+},
+{
+    "id": 31,
+    "name": "Draconyl",
+
+    "hp": 4,
+    "speed": 6,
+
+    "rarity": "Lethal",
+
+    "talent": "breeze",
+
+    "moves": [
+        "sky_strike",
+        "landing"
+    ]
+},
+{
+    "id": 32,
+    "name": "Dropbat",
+
+    "hp": 3,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "vampirism",
+
+    "moves": [
+        "trap_fangs",
+        "free_fall"
+    ]
+},
+{
+    "id": 34,
+    "name": "Ducknuk",
+
+    "hp": 5,
+    "speed": 3,
+
+    "rarity": "Moderate",
+
+    "talent": "positive_feedback",
+
+    "moves": [
+        "piercing_beak",
+        "momentum"
+    ]
+},
+{
+    "id": 35,
+    "name": "Equinos",
+
+    "hp": 3,
+    "speed": 5,
+
+    "rarity": "Minor",
+
+    "talent": "free_spirit",
+
+    "moves": [
+        "hoof_kick",
+        "liberation"
+    ]
+},
+{
+    "id": 36,
+    "name": "Farseer",
+
+    "hp": 9,
+    "speed": 4,
+
+    "rarity": "Unthinkable",
+
+    "talent": "energivore",
+
+    "moves": [
+        "heavy_assault",
+        "void_surge"
+    ]
+},
+{
+    "id": 37,
+    "name": "Fayardam",
+
+    "hp": 5,
+    "speed": 4,
+
+    "rarity": "Moderate",
+
+    "talent": "sleeping_spores",
+
+    "moves": [
+        "blunt_hit",
+        "narcotic_scales"
+    ]
+},
+{
+    "id": 38,
+    "name": "Feather Mole",
+
+    "hp": 5,
+    "speed": 2,
+
+    "rarity": "Minor",
+
+    "talent": "curing_bristles",
+
+    "moves": [
+        "bite",
+        "block"
+    ]
+},
+{
+    "id": 39,
+    "name": "Fleshbone",
+
+    "hp": 6,
+    "speed": 4,
+
+    "rarity": "Lethal",
+
+    "talent": "sclerocytes",
+
+    "moves": [
+        "devour",
+        "trap_tail"
+    ]
+},
+{
+    "id": 40,
+    "name": "Furle",
+
+    "hp": 4,
+    "speed": 6,
+
+    "rarity": "Minor",
+
+    "talent": null,
+
+    "moves": [
+        "bite",
+        "heavy_paw",
+        "pleading_face"
+    ]
+},
+{
+    "id": 41,
+    "name": "Gazebud",
+
+    "hp": 5,
+    "speed": 0,
+
+    "rarity": "Minor",
+
+    "talent": "inverted_world",
+
+    "moves": [
+        "vine_lash"
+       
+    ]
+},
+{
+    "id": 42,
+    "name": "Ghost Fox",
+
+    "hp": 5,
+    "speed": 4,
+
+    "rarity": "Moderate",
+
+    "talent": "charismatic",
+
+    "moves": [
+        "boldness",
+        "overconfidence"
+       
+    ]
+},
+{
+    "id": 43,
+    "name": "Glaborax",
+
+    "hp": 8,
+    "speed": 6,
+
+    "rarity": "Unthinkable",
+
+    "talent": "pestiferous",
+
+    "moves": [
+        "pestilence",
+        "toxin_bomb"
+       
+    ]
+},
+{
+    "id": 44,
+    "name": "Glowtongue",
+
+    "hp": 5,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "ambusher",
+
+    "moves": [
+        "glow_lick",
+        "tongue_wiggle"
+       
+    ]
+},
+{
+    "id": 45,
+    "name": "Greatshell",
+
+    "hp": 10,
+    "speed": 3,
+
+    "rarity": "Unthinkable",
+
+    "talent": "fortitude",
+
+    "moves": [
+        "crushing_weight",
+        "tidal_wave",
+        "overpower"
+       
+    ]
+},
+{
+    "id": 46,
+    "name": "Grimjaw",
+
+    "hp": 7,
+    "speed": 3,
+
+    "rarity": "Lethal",
+
+    "talent": null,
+
+    "moves": [
+        "cruelty",
+        "death_stare"
+       
+    ]
+},
+{
+    "id": 47,
+    "name": "Gumursa",
+
+    "hp": 5,
+    "speed": 1,
+
+    "rarity": "Moderate",
+
+    "talent": null,
+
+    "moves": [
+        "deadly_bite",
+        "acceleration",
+        "sharpen"
+       
+    ]
+},
+{
+    "id": 48,
+    "name": "Head Piercer",
+
+    "hp": 6,
+    "speed": 5,
+
+    "rarity": "Unthinkable",
+
+    "talent": null,
+
+    "moves": [
+        "spiky_slam",
+        "bolt",
+        "savegery"
+       
+    ]
+},
+{
+    "id": 48,
+    "name": "Heat Tiger",
+
+    "hp": 5,
+    "speed": 5,
+
+    "rarity": "Lethal",
+
+    "talent": null,
+
+    "moves": [
+        "steam_purge",
+        "fog_of_war"
+       
+    ]
+},
+{
+    "id": 49,
+    "name": "Hell Rat",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "rush",
+
+    "moves": [
+        "bite",
+        "swift_scratch"
+       
+    ]
+},
+{
+    "id": 50,
+    "name": "Hemionic Narwhal",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Unthinkable",
+
+    "talent": "soft_body",
+
+    "moves": [
+        "cement",
+        "obliteration",
+        "living_wall"
+       
+    ]
+},
+{
+    "id": 51,
+    "name": "Hipponimus",
+
+    "hp": 4,
+    "speed": 3,
+
+    "rarity": "Minor",
+
+    "talent": null,
+
+    "moves": [
+        "bottom_feed",
+        "aquired_state"
+       
+    ]
+},
+{
+    "id": 52,
+    "name": "Hivebearer",
+
+    "hp": 7,
+    "speed": 5,
+
+    "rarity": "Unthinkable",
+
+    "talent": "necrophagous",
+
+    "moves": [
+        "wound_stab",
+        "wrea_havoc"
+       
+    ]
+},
+{
+    "id": 53,
+    "name": "Hollow Ape",
+
+    "hp": 6,
+    "speed": 4,
+
+    "rarity": "Moderate",
+
+    "talent": "thick_hide",
+
+    "moves": [
+        "punch",
+        "lullaby"
+       
+    ]
+},
+{
+    "id": 54,
+    "name": "Irontail Salamander",
+
+    "hp": 6,
+    "speed": 1,
+
+    "rarity": "Moderate",
+
+    "talent": null,
+
+    "moves": [
+        "repeated_strike",
+        "tail_swipe"
+       
+    ]
+},
+{
+    "id": 55,
+    "name": "Jellymim",
+
+    "hp": 5,
+    "speed": 2,
+
+    "rarity": "Moderate",
+
+    "talent": "crippling_disease",
+
+    "moves": [
+        "metastasis",
+        "venom"
+       
+    ]
+},
+{
+    "id": 56,
+    "name": "Kaikai",
+
+    "hp": 4,
+    "speed": 2,
+
+    "rarity": "Minor",
+
+    "talent": "iron_will",
+
+    "moves": [
+        "bite",
+        "max_effort"
+       
+    ]
+},
+{
+    "id": 57,
+    "name": "Karkoplid",
+
+    "hp": 5,
+    "speed": 5,
+
+    "rarity": "Unthinkable",
+
+    "talent": "impregnable_shell",
+
+    "moves": [
+        "bold_grab",
+        "shell_bash"
+       
+    ]
+},
+{
+    "id": 58,
+    "name": "Kerabeetle",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Moderate",
+
+    "talent": "devils_advocate",
+
+    "moves": [
+        "swift_bite",
+        "scourge"
+       
+    ]
+},
+{
+    "id": 59,
+    "name": "Kilimaro",
+
+    "hp": 5,
+    "speed": 2,
+
+    "rarity": "Minor",
+
+    "talent": "snowball",
+
+    "moves": [
+        "bite",
+        "iceleech"
+       
+    ]
+},
+{
+    "id": 60,
+    "name": "Lantern Dog",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "lantern",
+
+    "moves": [
+        "hydro_slap",
+        "swift_scratch"
+       
+    ]
+},
+{
+    "id": 61,
+    "name": "Lightbringer",
+
+    "hp": 6,
+    "speed": 6,
+
+    "rarity": "Unthinkable",
+
+    "talent": "nocturnal_sun",
+
+    "moves": [
+        "signal_flare",
+        "blinding_flare"
+       
+    ]
+},
+{
+    "id": 62,
+    "name": "Lily Goose",
+
+    "hp": 5,
+    "speed": 3,
+
+    "rarity": "Moderate",
+
+    "talent": "crafty",
+
+    "moves": [
+        "hydro_slap",
+        "excitement"
+       
+    ]
+},
+{
+    "id": 63,
+    "name": "Lophotherium",
+
+    "hp": 4,
+    "speed": 6,
+
+    "rarity": "Moderate",
+
+    "talent": "cryo_sleep",
+
+    "moves": [
+        "hibernation",
+        "primal_instinct"
+       
+    ]
+},
+{
+    "id": 64,
+    "name": "Luminoscorpious",
+
+    "hp": 4,
+    "speed": 3,
+
+    "rarity": "Minor",
+
+    "talent": "disease_hunter",
+
+    "moves": [
+        "venom_sting",
+        "kinetitoxin"
+       
+    ]
+},
+{
+    "id": 65,
+    "name": "Lunar Pronghorn",
+
+    "hp": 6,
+    "speed": 5,
+
+    "rarity": "Lethal",
+
+    "talent": null,
+
+    "moves": [
+        "body_slam",
+        "mistcall",
+        "lunar_call"
+       
+    ]
+},
+{
+    "id": 66,
+    "name": "Maniaruk",
+
+    "hp": 5,
+    "speed": 3,
+
+    "rarity": "Moderate",
+
+    "talent": "fortitude",
+
+    "moves": [
+        "body_slam",
+        "morale_boost"
+       
+    ]
+},
+{
+    "id": 67,
+    "name": "Marafuu",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": null,
+
+    "moves": [
+        "pushback",
+        "parting_gift"
+       
+    ]
+},
+{
+    "id": 68,
+    "name": "Masked Howler",
+
+    "hp": 7,
+    "speed": 7,
+
+    "rarity": "Unthinkable",
+
+    "talent": "the_world",
+
+    "moves": [
+        "staredown",
+        "blind_rage"
+       
+    ]
+},
+{
+    "id": 69,
+    "name": "Maskol",
+
+    "hp": 2,
+    "speed": 6,
+
+    "rarity": "Minor",
+
+    "talent": "toxic_stare",
+
+    "moves": [
+        "venomous_bite",
+        "hit_and_hide"
+       
+    ]
+},
+{
+    "id": 70,
+    "name": "Meatgrazer",
+
+    "hp": 10,
+    "speed": 1,
+
+    "rarity": "Unthinkable",
+
+    "talent": "gregarious",
+
+    "moves": [
+        "impediment",
+        "black_hole"
+       
+    ]
+},
+{
+    "id": 71,
+    "name": "Melursus",
+
+    "hp": 5,
+    "speed": 6,
+
+    "rarity": "Lethal",
+
+    "talent": "defender",
+
+    "moves": [
+        "charge",
+        "perfect_parry"
+       
+    ]
+},
+{
+    "id": 72,
+    "name": "Mimilang",
+
+    "hp": 3,
+    "speed": 6,
+
+    "rarity": "Moderate",
+
+    "talent": "imitator",
+
+    "moves": [
+        "venomous_bite"
+       
+    ]
+},
+{
+    "id": 73,
+    "name": "Monarch Sloth",
+
+    "hp": 7,
+    "speed": 4,
+
+    "rarity": "Unthinkable",
+
+    "talent": null,
+
+    "moves": [
+        "grim_example",
+        "terror"
+       
+    ]
+},
+{
+    "id": 74,
+    "name": "Monomono",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "glow_mark",
+
+    "moves": [
+        "feces_throw",
+        "poop_taunt"
+       
+    ]
+},
+{
+    "id": 75,
+    "name": "Mulaba Ray",
+
+    "hp": 5,
+    "speed": 5,
+
+    "rarity": "Moderate",
+
+    "talent": "fear_reflex",
+
+    "moves": [
+        "trap_tail",
+        "panic_flail"
+       
+    ]
+},
+{
+    "id": 76,
+    "name": "Naked Worm-Newt",
+
+    "hp": 5,
+    "speed": 4,
+
+    "rarity": "Moderate",
+
+    "talent": "menacing_aura",
+
+    "moves": [
+        "bite",
+        "jumpscare"
+       
+    ]
+},
+{
+    "id": 77,
+    "name": "Namorphid",
+
+    "hp": 4,
+    "speed": 3,
+
+    "rarity": "Moderate",
+
+    "talent": "kickstart",
+
+    "moves": [
+        "hydrostrike",
+        "submerge"
+       
+    ]
+},
+{
+    "id": 78,
+    "name": "Needlefang",
+
+    "hp": 6,
+    "speed": 7,
+
+    "rarity": "Unthinkable",
+
+    "talent": "reflexive_sting",
+
+    "moves": [
+        "curare_bite",
+        "paralytic_agent"
+       
+    ]
+},
+{
+    "id": 79,
+    "name": "Neuromefos",
+
+    "hp": 7,
+    "speed": 7,
+
+    "rarity": "Unthinkable",
+
+    "talent": "hyperstimulation",
+
+    "moves": [
+        "body_slam",
+        "last_surprise"
+       
+    ]
+},
+{
+    "id": 80,
+    "name": "Nightwalker",
+
+    "hp": 5,
+    "speed": 8,
+
+    "rarity": "Unthinkable",
+
+    "talent": "force_field",
+
+    "moves": [
+        "deadly_bite",
+        "curse_of_the_void"
+       
+    ]
+},
+{
+    "id": 81,
+    "name": "Nostroptera",
+
+    "hp": 5,
+    "speed": 7,
+
+    "rarity": "Lethal",
+
+    "talent": "sadistic",
+
+    "moves": [
+        "body_slam",
+        "growl"
+       
+    ]
+},
+{
+    "id": 82,
+    "name": "Onsenosaur",
+
+    "hp": 6,
+    "speed": 6,
+
+    "rarity": "Lethal",
+
+    "talent": "slippery",
+
+    "moves": [
+        "shaking_screech",
+        "overdose"
+       
+    ]
+},
+{
+    "id": 83,
+    "name": "Orcarill",
+
+    "hp": 4,
+    "speed": 5,
+
+    "rarity": "Moderate",
+
+    "talent": "sneaky",
+
+    "moves": [
+        "body_slam",
+        "illumination"
+       
+    ]
+},
+{
+    "id": 84,
+    "name": "Oviparis",
+
+    "hp": 3,
+    "speed": 3,
+
+    "rarity": "Minor",
+
+    "talent": "tracker",
+
+    "moves": [
+        "aerostrike"
+       
+    ]
+},
+{
+    "id": 85,
+    "name": "Pachi",
+
+    "hp": 8,
+    "speed": 1,
+
+    "rarity": "Lethal",
+
+    "talent": "regeneration",
+
+    "moves": [
+        "lazy_strike",
+        "rest"
+       
+    ]
+},
+{
+    "id": 86,
+    "name": "Parapandion",
+
+    "hp": 4,
+    "speed": 6,
+
+    "rarity": "Lethal",
+
+    "talent": "sonar",
+
+    "moves": [
+        "flurry",
+        "knockdown"
+       
+    ]
+},
+{
+    "id": 87,
+    "name": "Peacarp",
+
+    "hp": 2,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "deimatic",
+
+    "moves": [
+        "scratch",
+        "morale_boost"
+       
+    ]
+},
+{
+    "id": 88,
+    "name": "Phiopoda",
+
+    "hp": 6,
+    "speed": 1,
+
+    "rarity": "Moderate",
+
+    "talent": null,
+
+    "moves": [
+        "flu",
+        "snooze",
+        "tackle"
+       
+    ]
+},
+{
+    "id": 89,
+    "name": "Pillar Pole",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Moderate",
+
+    "talent": "fortress",
+
+    "moves": [
+        "weak_sting",
+        "cover"
+       
+    ]
+},
+{
+    "id": 90,
+    "name": "Plant of Might",
+
+    "hp": 6,
+    "speed": 0,
+
+    "rarity": "Lethal",
+
+    "talent": "deft",
+
+    "moves": [
+        "razorpetal",
+        "stimulants",
+        "preparation"
+       
+    ]
+},
+{
+    "id": 91,
+    "name": "Plated Vaquita",
+
+    "hp": 4,
+    "speed": 5,
+
+    "rarity": "Moderate",
+
+    "talent": "calcification",
+
+    "moves": [
+        "somersault",
+        "all_hands_on_deck"
+       
+    ]
+},
+{
+    "id": 92,
+    "name": "Polar Monitor",
+
+    "hp": 5,
+    "speed": 3,
+
+    "rarity": "Moderate",
+
+    "talent": "frosty",
+
+    "moves": [
+        "discharge",
+        "electric_shock"
+       
+    ]
+},
+{
+    "id": 93,
+    "name": "Polro",
+
+    "hp": 6,
+    "speed": 4,
+
+    "rarity": "Lethal",
+
+    "talent": "frigid",
+
+    "moves": [
+        "snowplow",
+        "crushing_weight"
+       
+    ]
+},
+{
+    "id": 94,
+    "name": "Porpid",
+
+    "hp": 4,
+    "speed": 5,
+
+    "rarity": "Moderate",
+
+    "talent": "harsh_frequency",
+
+    "moves": [
+        "echolocation",
+        "reactive_stab"
+       
+    ]
+},
+{
+    "id": 95,
+    "name": "Psychatina",
+
+    "hp": 5,
+    "speed": 1,
+
+    "rarity": "Minor",
+
+    "talent": "stamina",
+
+    "moves": [
+        "bite",
+        "paradigm_shift"
+       
+    ]
+},
+{
+    "id": 96,
+    "name": "Quetzi",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "venom_spray",
+
+    "moves": [
+        "furious_fang",
+        "poisoned_scales"
+       
+    ]
+},
+{
+    "id": 97,
+    "name": "Rhinotaurus",
+
+    "hp": 6,
+    "speed": 3,
+
+    "rarity": "Lethal",
+
+    "talent": "avenger",
+
+    "moves": [
+        "smash",
+        "sprint",
+        "barricade"
+       
+    ]
+},
+{
+    "id": 98,
+    "name": "Scaly Dragon",
+
+    "hp": 5,
+    "speed": 6,
+
+    "rarity": "Lethal",
+
+    "talent": "spiky_scales",
+
+    "moves": [
+        "plate_slam",
+        "hardening"
+       
+    ]
+},
+{
+    "id": 99,
+    "name": "Shadow Moth",
+
+    "hp": 5,
+    "speed": 10,
+
+    "rarity": "Unthinkable",
+
+    "talent": "withering",
+
+    "moves": [
+        "sonic_boom",
+        "trickery"
+       
+    ]
+},
+{
+    "id": 100,
+    "name": "Shell Cat",
+
+    "hp": 5,
+    "speed": 3,
+
+    "rarity": "Minor",
+
+    "talent": "inkstain",
+
+    "moves": [
+        "bite",
+        "guard"
+       
+    ]
+},
+{
+    "id": 101,
+    "name": "Shroomzard",
+
+    "hp": 5,
+    "speed": 4,
+
+    "rarity": "Moderate",
+
+    "talent": "fume_sniffer",
+
+    "moves": [
+        "bite",
+        "toxic_fart"
+       
+    ]
+},
+{
+    "id": 102,
+    "name": "Silent One",
+
+    "hp": 6,
+    "speed": 9,
+
+    "rarity": "Unthinkable",
+
+    "talent": "ethereal",
+
+    "moves": [
+        "obliteration",
+        "echo"
+       
+    ]
+},
+{
+    "id": 103,
+    "name": "Silk Beetle",
+
+    "hp": 4,
+    "speed": 3,
+
+    "rarity": "Minor",
+
+    "talent": "venom_cure",
+
+    "moves": [
+        "bite",
+        "infection"
+       
+    ]
+},
+{
+    "id": 104,
+    "name": "Silver Hornet",
+
+    "hp": 1,
+    "speed": 7,
+
+    "rarity": "Minor",
+
+    "talent": "hypersensitive",
+
+    "moves": [
+        "sting",
+        "suicide_sting"
+       
+    ]
+},
+{
+    "id": 105,
+    "name": "Skrimp",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "inspired",
+
+    "moves": [
+        "water_skiing",
+        "water_splash"
+       
+    ]
+},
+{
+    "id": 106,
+    "name": "Skull Crab",
+
+    "hp": 4,
+    "speed": 5,
+
+    "rarity": "Minor",
+
+    "talent": null,
+
+    "moves": [
+        "tackle",
+        "left_claw",
+        "right_claw"
+       
+    ]
+},
+{
+    "id": 107,
+    "name": "Slusher",
+
+    "hp": 5,
+    "speed": 2,
+
+    "rarity": "Moderate",
+
+    "talent": "ice_wall",
+
+    "moves": [
+        "chillwind",
+        "frostbite"
+       
+    ]
+},
+{
+    "id": 108,
+    "name": "Spinehog",
+
+    "hp": 5,
+    "speed": 3,
+
+    "rarity": "Moderate",
+
+    "talent": null,
+
+    "moves": [
+        "bash",
+        "headbutt",
+        "swift_scratch"
+       
+    ]
+},
+{
+    "id": 109,
+    "name": "Sporeplant",
+
+    "hp": 5,
+    "speed": 0,
+
+    "rarity": "Moderate",
+
+    "talent": "pheromones",
+
+    "moves": [
+        "neurotoxin",
+        "poisoned_gift"
+       
+    ]
+},
+{
+    "id": 110,
+    "name": "Spotted Gigapod",
+
+    "hp": 7,
+    "speed": 5,
+
+    "rarity": "Lethal",
+
+    "talent": "hidden_stinger",
+
+    "moves": [
+        "fatal_sting",
+        "noxious_fury"
+       
+    ]
+},
+{
+    "id": 111,
+    "name": "Stingslug",
+
+    "hp": 3,
+    "speed": 3,
+
+    "rarity": "Lethal",
+
+    "talent": null,
+
+    "moves": [
+        "death_sting",
+        "nanostinger",
+        "idle"
+       
+    ]
+},
+{
+    "id": 112,
+    "name": "Stone Larva",
+
+    "hp": 2,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "lithophagous",
+
+    "moves": [
+        "bite",
+        "reinforcement"
+       
+    ]
+},
+{
+    "id": 113,
+    "name": "Stonepecker",
+
+    "hp": 3,
+    "speed": 5,
+
+    "rarity": "Moderate",
+
+    "talent": "bug_eater",
+
+    "moves": [
+        "peck_peck",
+        "stone_beak"
+       
+    ]
+},
+{
+    "id": 114,
+    "name": "Swamp Beast",
+
+    "hp": 8,
+    "speed": 2,
+
+    "rarity": "Unthinkable",
+
+    "talent": "pain_harvester",
+
+    "moves": [
+        "blood_surge",
+        "lifepulse"
+       
+    ]
+},
+{
+    "id": 115,
+    "name": "Swordbird",
+
+    "hp": 2,
+    "speed": 8,
+
+    "rarity": "Moderate",
+
+    "talent": "fast_predator",
+
+    "moves": [
+        "pierce",
+        "momentum"
+       
+    ]
+},
+{
+    "id": 116,
+    "name": "Tadwhale",
+
+    "hp": 5,
+    "speed": 1,
+
+    "rarity": "Moderate",
+
+    "talent": "gourmet",
+
+    "moves": [
+        "collision",
+        "stagger"
+       
+    ]
+},
+{
+    "id": 117,
+    "name": "Tapamir",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "eusocial",
+
+    "moves": [
+        "bite",
+        "pollinization"
+       
+    ]
+},
+{
+    "id": 118,
+    "name": "Thousand-Year Deer",
+
+    "hp": 5,
+    "speed": 5,
+
+    "rarity": "Lethal",
+
+    "talent": "mystic_presence",
+
+    "moves": [
+        "body_slam",
+        "piercing_gaze"
+       
+    ]
+},
+{
+    "id": 119,
+    "name": "Tideweaver",
+
+    "hp": 5,
+    "speed": 6,
+
+    "rarity": "Lethal",
+
+    "talent": "apex_predator",
+
+    "moves": [
+        "body_slam",
+        "hypnocry",
+        "bone_breaker"
+       
+    ]
+},
+{
+    "id": 120,
+    "name": "Tiger Zebra",
+
+    "hp": 5,
+    "speed": 1,
+
+    "rarity": "Moderate",
+
+    "talent": "runner",
+
+    "moves": [
+        "buck",
+        "footwork"
+       
+    ]
+},
+{
+    "id": 121,
+    "name": "Titanoros",
+
+    "hp": 8,
+    "speed": 1,
+
+    "rarity": "Lethal",
+
+    "talent": "eternal_shield",
+
+    "moves": [
+        "trampling",
+        "rock_hard_plates"
+       
+    ]
+},
+{
+    "id": 122,
+    "name": "Tongue Biter",
+
+    "hp": 5,
+    "speed": 5,
+
+    "rarity": "Lethal",
+
+    "talent": null,
+
+    "moves": [
+        "double_bite",
+        "swift_jaws",
+        "much_fury"
+       
+    ]
+},
+{
+    "id": 123,
+    "name": "Tortoa",
+
+    "hp": 5,
+    "speed": 4,
+
+    "rarity": "Moderate",
+
+    "talent": "bulwark",
+
+    "moves": [
+        "bite",
+        "group_cover",
+        "guard"
+       
+    ]
+},
+{
+    "id": 124,
+    "name": "Trench Crawler",
+
+    "hp": 7,
+    "speed": 6,
+
+    "rarity": "Unthinkable",
+
+    "talent": "detection",
+
+    "moves": [
+        "echolocation",
+        "sightless_swipe"
+       
+    ]
+},
+{
+    "id": 125,
+    "name": "Tricaudal Hyena",
+
+    "hp": 6,
+    "speed": 4,
+
+    "rarity": "Lethal",
+
+    "talent": "bloodthirsty",
+
+    "moves": [
+        "giga_sting",
+        "frenzy",
+        "needle_tail"
+       
+    ]
+},
+{
+    "id": 126,
+    "name": "Trypognath",
+
+    "hp": 5,
+    "speed": 4,
+
+    "rarity": "Lethal",
+
+    "talent": "haunting_presence",
+
+    "moves": [
+        "siphon_soul",
+        "suction_cups"
+       
+    ]
+},
+{
+    "id": 127,
+    "name": "Tuba Bear",
+
+    "hp": 5,
+    "speed": 3,
+
+    "rarity": "Moderate",
+
+    "talent": "peripheral_vision",
+
+    "moves": [
+        "venomous_bite",
+        "toxic_wave"
+       
+    ]
+},
+{
+    "id": 128,
+    "name": "Tusked Gecko",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "life_drinker",
+
+    "moves": [
+        "bite",
+        "anesthesia"
+       
+    ]
+},
+{
+    "id": 129,
+    "name": "Ulupara",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "emphathy",
+
+    "moves": [
+        "cartwheel",
+        "flipside"
+       
+    ]
+},
+{
+    "id": 130,
+    "name": "Urtico",
+
+    "hp": 5,
+    "speed": 1,
+
+    "rarity": "Moderate",
+
+    "talent": "leech_venom",
+
+    "moves": [
+        "infection",
+        "biosublimation"
+       
+    ]
+},
+{
+    "id": 131,
+    "name": "Vanta Panther",
+
+    "hp": 7,
+    "speed": 5,
+
+    "rarity": "Unthinkable",
+
+    "talent": "hyperspeed",
+
+    "moves": [
+        "wild_sense",
+        "supersonic_sweep"
+       
+    ]
+},
+{
+    "id": 132,
+    "name": "Vasculis",
+
+    "hp": 7,
+    "speed": 7,
+
+    "rarity": "Unthinkable",
+
+    "talent": "bloodthirsty",
+
+    "moves": [
+        "critical_hunt",
+        "bloodlust"
+       
+    ]
+},
+{
+    "id": 133,
+    "name": "Walrus Fish",
+
+    "hp": 3,
+    "speed": 5,
+
+    "rarity": "Minor",
+
+    "talent": "curing_bristles",
+
+    "moves": [
+        "hydro_slap",
+        "submerge"
+       
+    ]
+},
+{
+    "id": 134,
+    "name": "Waterwary",
+
+    "hp": 3,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "carapace",
+
+    "moves": [
+        "trap_beak",
+        "swift_scratch"
+       
+    ]
+},
+{
+    "id": 135,
+    "name": "White Reaper",
+
+    "hp": 5,
+    "speed": 7,
+
+    "rarity": "Unthinkable",
+
+    "talent": "dreadful",
+
+    "moves": [
+        "scythe_swipe",
+        "hail"
+       
+    ]
+},
+{
+    "id": 136,
+    "name": "Windgul",
+
+    "hp": 3,
+    "speed": 9,
+
+    "rarity": "Moderate",
+
+    "talent": "wind_of_change",
+
+    "moves": [
+        "peck",
+        "tailwind"
+       
+    ]
+},
+{
+    "id": 137,
+    "name": "Wolfuwa",
+
+    "hp": 4,
+    "speed": 5,
+
+    "rarity": "Minor",
+
+    "talent": "underdog",
+
+    "moves": [
+        "bite",
+        "adrenal_rush"
+       
+    ]
+},
+{
+    "id": 138,
+    "name": "Whoolly Tanaraw",
+
+    "hp": 4,
+    "speed": 4,
+
+    "rarity": "Moderate",
+
+    "talent": "passive_aggressive",
+
+    "moves": [
+        "hoof_stomp",
+        "knockdown"
+       
+    ]
+},
+{
+    "id": 139,
+    "name": "Xaran",
+
+    "hp": 6,
+    "speed": 5,
+
+    "rarity": "Lethal",
+
+    "talent": null,
+
+    "moves": [
+        "coil_up",
+        "toxi_chitin"
+       
+    ]
+},
+{
+    "id": 140,
+    "name": "Xerododo",
+
+    "hp": 5,
+    "speed": 4,
+
+    "rarity": "Minor",
+
+    "talent": "intrepid",
+
+    "moves": [
+        "flock_attack",
+        "getaway"
+       
+    ]
+},
+{
+    "id": 141,
+    "name": "Xiphonoir",
+
+    "hp": 5,
+    "speed": 7,
+
+    "rarity": "Unthinkable",
+
+    "talent": "berserk",
+
+    "moves": [
+        "bloodbath",
+        "all_out_attack"
+       
+    ]
+}
+
+]
