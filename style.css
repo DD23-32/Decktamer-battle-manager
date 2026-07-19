@@ -541,3 +541,24 @@ h1{
     background:#b53b3b;
 
 }
+.actionButtonsTop{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+    margin:12px 0;
+
+}
+
+.actionButtonsTop button{
+
+    padding:8px 18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+}

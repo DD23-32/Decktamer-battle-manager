@@ -602,6 +602,51 @@ function drawInspector() {
             Player ${selectedCard.owner}
         </div>
     `;
+    if(selectedCard.owner === currentPlayer){
+
+    html += `
+
+        <div class="actionButtonsTop">
+
+    `;
+
+    if(selectedCard.inPlay){
+
+        html += `
+
+            <button onclick="retreatSelectedCard()">
+                Retreat
+            </button>
+
+            <button onclick="swapLane()">
+                Swap Lane
+            </button>
+
+        `;
+
+    }
+
+    else{
+
+        html += `
+
+            <button onclick="playSelectedCard()">
+                Play
+            </button>
+
+        `;
+
+    }
+
+    html += `
+
+        </div>
+
+        <hr>
+
+    `;
+
+}
 
     // --------------------------
     // Permanent Stats
@@ -826,54 +871,6 @@ html += drawTemporaryStatus(
     "tempSluggish",
     "Temporary Sluggish"
 );
-
-html += `
-
-<hr>
-
-<div class="actionButtons">
-
-`;
-if(selectedCard.inPlay){
-
-    html += `
-
-        <button onclick="retreatSelectedCard()">
-
-            Retreat
-
-        </button>
-
-        <button onclick="swapLane()">
-
-            Swap Lane
-
-        </button>
-
-    `;
-
-}
-else{
-
-    html += `
-
-        <button onclick="playSelectedCard()">
-
-            Play
-
-        </button>
-
-    `;
-
-}
-
-html += `
-
-    </div>
-
-`;
-
-panel.innerHTML = html;
 
 }
 function refreshUI(){

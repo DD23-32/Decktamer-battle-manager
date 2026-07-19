@@ -13,54 +13,97 @@
 
 <body>
 
-    <h1>DeckTamer Battle Manager</h1>
+<h1>DeckTamer Battle Manager</h1>
 
-    <div id="app">
+<div id="app">
+
+    <!-- ========================= -->
+    <!-- PLAYER 1 -->
+    <!-- ========================= -->
 
     <div id="player1Deck">
 
-    <h2>Player 1 Deck</h2>
+        <h2>Player 1 Deck</h2>
 
-    <input
-    id="player1Search"
-    oninput="updateSearchResults(1)"
-        type="text"
-        placeholder="Search creature..."
-    >
+        <div class="searchBox">
 
-    <div id="player1SearchResults"></div>
+            <input
+                id="player1Search"
+                type="text"
+                placeholder="Creature name">
 
-    <div id="player1DeckCards"></div>
+            <button
+                onclick="updateSearchResults(1)">
+                Search
+            </button>
 
-</div>
+        </div>
+
+        <div
+            id="player1SearchResults"
+            class="searchResults">
+        </div>
+
+        <hr>
+
+        <div id="player1DeckCards"></div>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- BOARD -->
+    <!-- ========================= -->
 
     <div id="board"></div>
 
+
+    <!-- ========================= -->
+    <!-- PLAYER 2 -->
+    <!-- ========================= -->
+
     <div id="player2Deck">
 
-    <h2>Player 2 Deck</h2>
+        <h2>Player 2 Deck</h2>
 
-    <input
-    id="player2Search"
-    oninput="updateSearchResults(2)"
-        type="text"
-        placeholder="Search creature..."
-    >
+        <div class="searchBox">
 
-    <div id="player2SearchResults"></div>
+            <input
+                id="player2Search"
+                type="text"
+                placeholder="Creature name">
 
-    <div id="player2DeckCards"></div>
+            <button
+                onclick="updateSearchResults(2)">
+                Search
+            </button>
+
+        </div>
+
+        <div
+            id="player2SearchResults"
+            class="searchResults">
+        </div>
+
+        <hr>
+
+        <div id="player2DeckCards"></div>
+
+    </div>
 
 </div>
 
-</div>
+
 <div id="controls">
 
     <button onclick="endTurn()">
+
         End Turn
+
     </button>
 
 </div>
+
 
 <div id="inspector">
 
@@ -75,7 +118,7 @@
 </div>
 
 
-    <script src="js/database.js"></script>
+<script src="js/database.js"></script>
 <script src="js/match.js"></script>
 <script src="js/ui.js"></script>
 <script src="js/main.js"></script>
