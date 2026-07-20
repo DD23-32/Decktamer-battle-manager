@@ -285,20 +285,34 @@ function changeSlowness(amount){
 
 function changePoison(amount){
 
+    console.log("changePoison called");
+
     if(!selectedCard)
         return;
 
-    applyStatChange(selectedCard.uid, "poison", amount);
+    applyStatChange(
 
+        selectedCard.uid,
+
+        "poison",
+
+        amount
+
+    );
+console.log("Sending poison:", amount);
     sendCommand({
+
         type: "changeStat",
+
         uid: selectedCard.uid,
+
         stat: "poison",
+
         delta: amount
+
     });
 
 }
-
 function changeProtection(amount){
 
     if(!selectedCard)
@@ -786,18 +800,7 @@ function triggerTalent(card, trigger){
     );
 
 }
-function changePoison(amount){
 
-    if(!selectedCard) return;
-
-    selectedCard.poison += amount;
-
-    if(selectedCard.poison < 0)
-        selectedCard.poison = 0;
-
-    refreshUI();
-
-}
 function selectMove(card, index){
 
     applySelectMove(card, index);
@@ -999,21 +1002,29 @@ function updateTemporaryEffects(){
 
     cards.forEach(card=>{
 
+        // Temporary effects
         effects.forEach(effect=>{
 
             card[effect].forEach(entry=>{
 
-    entry.duration--;
+                entry.duration--;
 
-});
+            });
 
-card[effect] = card[effect].filter(entry=>
+            card[effect] = card[effect].filter(entry=>
 
-    entry.duration > 0
+                entry.duration > 0
 
-);
+            );
 
         });
+
+        // Poison
+        if(card.poison > 0){
+
+    card.poison--;
+
+}
 
     });
 

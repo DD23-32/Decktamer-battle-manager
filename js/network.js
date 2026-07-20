@@ -264,6 +264,17 @@ case "removeStatus":
     }
 
     break;
+    case "changeStat":
+
+    console.log("Received stat:", command.stat, command.delta);
+
+    applyStatChange(
+        command.uid,
+        command.stat,
+        command.delta
+    );
+
+    break;
     }
 
 }
